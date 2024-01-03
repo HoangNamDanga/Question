@@ -45,8 +45,8 @@ public class ChooseSubjectJFrame extends javax.swing.JFrame {
         int i = 0;
         
         for(Document doc : cursor) {
-            var Name = doc.get("Name").toString();
-            lstModel[i] = Name;
+            var Code = doc.get("Code").toString();
+            lstModel[i] = Code;
             i++;
         }
         
@@ -222,7 +222,7 @@ public class ChooseSubjectJFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         QuestionJFrame frame = new QuestionJFrame();
         frame.show();
-        frame.subjectId = this.jComboBox2.getSelectedItem().toString();
+        frame.subjectCode = this.jComboBox2.getSelectedItem().toString();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

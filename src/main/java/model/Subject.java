@@ -13,10 +13,12 @@ import java.util.UUID;
 public class Subject {
     private UUID _id;// id tuwj tawng cuar mongoDB
     private String Name;
+    private String Code;
 
-    public Subject(UUID _id, String Name) {
+    public Subject(UUID _id, String Name, String Code) {
         this._id = _id;
         this.Name = Name;
+        this.Code = Code;
     }
 
     public UUID getId() {
@@ -34,5 +36,15 @@ public class Subject {
     public void setName(String Name) {
         this.Name = Name;
     }
+
+    public String getCode() {
+        return Code;
+    }
+
+    public void setCode(String Code) {
+        this.Code = Code;
+    }
+
+    
     
 }

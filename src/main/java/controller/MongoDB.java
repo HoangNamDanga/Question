@@ -18,4 +18,6 @@ public class MongoDB {
     MongoDatabase db = mongo1.getDatabase("Question");
     public MongoCollection<Document> userCollection = db.getCollection("User"); // Replace with your collection name
     public MongoCollection<Document> subjectCollection = db.getCollection("Subject"); // Replace with your collection name
+    public MongoCollection<Document> epcCollection = db.getCollection("EPC");
+    public MongoCollection<Document> javaCollection = db.getCollection("JAVA");
 }

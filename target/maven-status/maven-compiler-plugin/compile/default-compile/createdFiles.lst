@@ -8,12 +8,16 @@ view\ChooseSubjectJFrame$3.class
 view\LoginJFrame.class
 view\QuestionJFrame$5.class
 view\QuestionJFrame$3.class
+view\QuestionJFrame$9.class
 view\ChooseSubjectJFrame.class
 view\LoginView.class
 view\ChooseSubjectJFrame$2.class
 view\QuestionJFrame.class
 view\LoginJFrame$2.class
 view\LoginJFrame$1.class
+view\QuestionJFrame$8.class
+model\Question.class
 view\QuestionJFrame$2.class
 view\ChooseSubjectJFrame$1.class
 model\User.class
+view\QuestionJFrame$7.class
