@@ -1,0 +1,601 @@
+[
+  {
+    "id": "1",
+    "question": "Ngôn ngữ lập trình C được Dennish phát triển dựa trên ngôn ngữ lập trình nào?",
+    "correct_answer": "A. Ngôn ngữ B",
+    "incorrect_answers": [
+      "B. Ngôn ngữ BCPL",
+      "C. Ngôn ngữ DEC PDP",
+      "D. Ngôn ngữ B và BCPL"
+    ]
+  },
+  {
+    "id": "2",
+    "question": "Ngôn ngữ lập trình được Dennish đưa ra vào năm nào?",
+    "correct_answer": "B. 1972",
+    "incorrect_answers": [
+      "A. 1967",
+      "C. 1970",
+      "D. 1976"
+    ]
+  },
+  {
+    "id": "3",
+    "question": "Ngôn ngữ lập trình nào dưới đây là ngôn ngữ lập trình có cấu trúc?",
+    "correct_answer": "B. Ngôn ngữ C và Pascal",
+    "incorrect_answers": [
+      "A. Ngôn ngữ Assembler",
+      "C. Ngôn ngữ Cobol",
+      "D. a, b và c"
+    ]
+  },
+  {
+    "id": "4",
+    "question": "Những tên biến nào dưới đây được viết đúng theo quy tắc đặt tên của ngôn ngữ lập trình C?",
+    "correct_answer": "C. _diemtoan",
+    "incorrect_answers": [
+      "A. diem toan",
+      "B. 3diemtoan",
+      "D. -diemtoan"
+    ]
+  },
+  {
+    "id": "5",
+    "question": "Một biến được gọi là biến toàn cục nếu",
+    "correct_answer": "C. Nó được khai báo bên ngoài hàm main()",
+    "incorrect_answers": [
+      "A. Nó được khai báo tất cả các hàm, ngoại trừ hàm main()",
+      "B. Nó được khai báo ngoài tất cả các hàm kể cả hàm main()",
+      "D. Nó được khai báo bên trong hàm main()"
+    ]
+  },
+  {
+    "id": "6",
+    "question": "Một biến được gọi là một biến địa phương nếu",
+    "correct_answer": "A. Nó được khai báo bên trong các hàm hoặc thủ tục, kể cả hàm main()",
+    "incorrect_answers": [
+      "B. Nó được khai báo bên trong các hàm ngoại trừ hàm main()",
+      "C. Nó được khai báo bên trong hàm main()",
+      "D. Nó được khai báo bên ngoài các hàm kể cả hàm main()"
+    ]
+  },
+  {
+    "id": "7",
+    "question": "Giả sử x là một biến toàn cục và x là một con trỏ, thì:",
+    "correct_answer": "A. Miền nhớ dành cho x có thể thay đổi trong quá trình thực hiện chương trình.",
+    "incorrect_answers": [
+      "B. Miền nhớ dành cho x chỉ có thay đổi bởi những thao tác với x bên trong hàm main().",
+      "C. Miền nhớ dành cho x sẽ thay đổi bởi những thao tác với x trong tất cả các hàm, kể cả hàm main().",
+      "D. Miền nhớ giành cho x không bị thay đổi trong quá trình thực hiện chương trình."
+    ]
+  },
+  {
+    "id": "8",
+    "question": "Kiểu dữ liệu nào trong các kiểu dữ liệu sau là kiểu dữ liệu cơ bản trong ngôn ngữ lập trình C?",
+    "correct_answer": "C. Kiểu hợp",
+    "incorrect_answers": [
+      "A. Kiểu double",
+      "B. Kiểu con trỏ",
+      "D. Kiểu mảng"
+    ]
+  },
+  {
+    "id": "9",
+    "question": "Giả sử a, b là hai số thực. Biểu thức nào dưới đây viết không đúng theo cú pháp của ngôn ngữ lập trình C?",
+    "correct_answer": "B. (a*=b)",
+    "incorrect_answers": [
+      "A. (a+b)",
+      "C. (a=b)",
+      "D. (a&=b)"
+    ]
+  },
+  {
+    "id": "10",
+    "question": "Giả sử a và b là hai số thực. Biểu thức nào dưới đây là không được phép theo cú pháp của ngôn ngữ lập trình C?",
+    "correct_answer": "D. (a*=b)",
+    "incorrect_answers": [
+      "A. (a/b)",
+      "B. (a-=b)",
+      "C. (a>>=b)"
+    ]
+  },
+  {
+    "id": "11",
+    "question": "Xâu định dạng nào dưới đây dùng để in ra một số nguyên hệ 16?",
+    "correct_answer": "B. %x",
+    "incorrect_answers": [
+      "A. %d",
+      "C. %i",
+      "D. %u"
+    ]
+  },
+  {
+    "id": "12",
+    "question": "Xâu định dạng nào dưới đây dùng để in ra một số nguyên ở hệ 8?",
+    "correct_answer": "D. %o",
+    "incorrect_answers": [
+      "A. %d",
+      "B. %x",
+      "C. %u"
+    ]
+  },
+  {
+    "id": "13",
+    "question": "Xâu định dạng nào dưới đây dùng để in ra một kí tự?",
+    "correct_answer": "D. %c",
+    "incorrect_answers": [
+      "A. %f",
+      "B. %x",
+      "C. %s"
+    ]
+  },
+  {
+    "id": "14",
+    "question": "Xâu định dạng nào dưới đây dùng để in ra một xâu kí tự?",
+    "correct_answer": "C. %s",
+    "incorrect_answers": [
+      "A. %f",
+      "B. %x",
+      "D. %c"
+    ]
+  },
+  {
+    "id": "15",
+    "question": "Xâu định dạng nào dưới đây dùng để in ra một số nguyên dài?",
+    "correct_answer": "A. %ld",
+    "incorrect_answers": [
+      "B. %x",
+      "C. %d",
+      "D. %0"
+    ]
+  },
+  {
+    "id": "16",
+    "question": "Xâu định dạng nào dưới đây dùng để in ra địa chỉ của một biến?",
+    "correct_answer": "D. %p",
+    "incorrect_answers": [
+      "A. %u",
+      "B. %e",
+      "C. %0"
+    ]
+  },
+  {
+    "id": "17",
+    "question": "Thứ tự thực hiện các câu lệnh trong vòng lặp for như thế nào?",
+    "correct_answer": "A. Khởi tạo - Điều kiện - Tăng/giảm - Thực hiện",
+    "incorrect_answers": [
+      "B. Điều kiện - Khởi tạo - Tăng/giảm - Thực hiện",
+      "C. Khởi tạo - Tăng/giảm - Thực hiện - Điều kiện",
+      "D. Tăng/giảm - Khởi tạo - Điều kiện - Thực hiện"
+    ]
+  },
+  {
+    "id": "18",
+    "question": "Trong vòng lặp while, nếu điều kiện luôn đúng thì vòng lặp sẽ thực hiện",
+    "correct_answer": "A. Vô hạn lần",
+    "incorrect_answers": [
+      "B. Một lần",
+      "C. Hai lần",
+      "D. Không thực hiện"
+    ]
+  },
+  {
+    "id": "19",
+    "question": "Trong vòng lặp do-while, nếu điều kiện luôn đúng thì vòng lặp sẽ thực hiện",
+    "correct_answer": "A. Vô hạn lần",
+    "incorrect_answers": [
+      "B. Một lần",
+      "C. Hai lần",
+      "D. Không thực hiện"
+    ]
+  },
+  {
+    "id": "20",
+    "question": "Kiểu dữ liệu int( kiểu số nguyên) có thể xử lí số nguyên nằm trong khoảng nào?",
+    "correct_answer": "A. -32768...32767",
+    "incorrect_answers": [
+      "B. 0...255",
+      "C. -128...127",
+      "D. 0...65535"
+    ]
+  },
+  {
+    "id": "21",
+    "question": "Kiểu dữ liệu float( kiểu số thực) có thể xử lí số thực nằm trong khoảng nào?",
+    "correct_answer": "D. -3.402823466E+38...3.402823466E+38",
+    "incorrect_answers": [
+      "A. -128...127",
+      "B. 0...255",
+      "C. -32768...32767"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Giả sử a và b là 2 số thực. Biểu thức nào dưới đây là không được phép",
+    "correct_answers": "C. (a>>=b)",
+    "incorrect_answers": [
+      "A. (a+=b)",
+      "B. (a-=b)",
+      "D. (a*=b)"
+    ]
+  },
+  {
+    "id": "23",
+    "question": "Trong các hàm sau, hàm nào là hàm không định dạng để in một chuỗi kí tự ra màn hình?",
+    "correct_answer": "C. putchar()",
+    "incorrect_answers": [
+      "A. puts()",
+      "B. printf()",
+      "D. gets()"
+    ]
+  },
+  {
+    "id": "24",
+    "question": "Sử dụng cách truyền nào trong hàm sẽ không làm thay đổi giá trị của biến trong chương trình chính?",
+    "correct_answer": "A. Truyền bằng trị",
+    "incorrect_answers": [
+      "B. Truyền bằng giá trị địa chỉ của tham số",
+      "C. Cả a và b đều đúng",
+      "D. Cả a và b đều sai"
+    ]
+  },
+  {
+    "id": "25",
+    "question": "Cho biết giá trị của biểu thức 5>1",
+    "correct_answer": "C. 1",
+    "incorrect_answers": [
+      "A. -1",
+      "B. 0",
+      "D. Tất cả đều sai"
+    ]
+  },
+  {
+    "id": "26",
+    "question": "Biến con trỏ có thể chứa",
+    "correct_answer": "C. Cả a và b đều đúng",
+    "incorrect_answers": [
+      "A. Địa chỉ vùng nhớ của một biến khác",
+      "B. Giá trị của một biến khác",
+      "D. Cả a và b đều sai"
+    ]
+  },
+  {
+    "id": "27",
+    "question": "Cho biết giá trị của biểu thức 2+4>2&&4<2",
+    "correct_answer": "D. Tất cả đều sai",
+    "incorrect_answers": [
+      "A. 1",
+      "B. 0",
+      "C. -1"
+    ]
+  },
+  {
+    "id": "28",
+    "question": "Biến con trỏ có thể chứa",
+    "correct_answer": "C. Cả a và b đều đúng",
+    "incorrect_answers": [
+      "A. Địa chỉ vùng nhớ của một biến khác",
+      "B. Giá trị của một biến khác"
+    ]
+  },
+  {
+    "id": "29",
+    "question": "Dữ liệu ký tự bao gồm",
+    "correct_answer": "D. Cả a, b, và c",
+    "incorrect_answers": [
+      "A. Các ký tự số chữ số",
+      "B. Các ký tự chữ cái",
+      "C. Các ký tự đặc biệt"
+    ]
+  },
+  {
+    "id": "30",
+    "question": "Nếu hàm được gọi trước khi nó định nghĩa, thì điều kiện là gì",
+    "correct_answer": "C. Trước khi gọi hàm nó phải được khai báo",
+    "incorrect_answers": [
+      "A. Kiểu trả về của hàm phải là kiểu void",
+      "B. Kiểu đầu vào của hàm phải là kiểu void",
+      "D. Hàm chỉ trả về kiểu dữ liệu boolean"
+    ]
+  },
+  {
+    "id": "31",
+    "question": "Kiểu dữ liệu float có thể xử lí dữ liệu trong phạm vi nào",
+    "correct_answer": "A. 3.4*10-38 đến 3.4*1038",
+    "incorrect_answers": [
+      "B. -32768 đến 32767",
+      "C. -128 đến 127",
+      "D. 0...65535"
+    ]
+  },
+  {
+    "id": "32",
+    "question": "Kiểu dữ liệu char có thể xử lí dữ liệu trong phạm vi nào",
+    "correct_answer": "A. 0 đến 255",
+    "incorrect_answers": [
+      "B. -128 đến 127",
+      "C. -32768 đến 32767",
+      "D. -9223372036854775808 đến 9223372036854775807"
+    ]
+  },
+  {
+    "id": "33",
+    "question": "Lệnh nào trong các lệnh sau cho phép chuyển sang vòng lặp tiếp theo mà không cần phải thực hiện phần còn lại của vòng lặp",
+    "correct_answer": "C. continue",
+    "incorrect_answers": [
+      "A. break",
+      "B. goto",
+      "D. return"
+    ]
+  },
+  {
+    "id": "34",
+    "question": "Giả sử có câu lệnh ch='A'. Vậy ch sẽ chứa bao nhiêu byte",
+    "correct_answer": "A. 1",
+    "incorrect_answers": [
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ]
+  },
+  {
+    "id": "35",
+    "question": "Kiểu dữ liệu nào trong các kiểu dữ liệu sau là kiểu dữ liệu số nguyên có dấu",
+    "correct_answer": "A. int",
+    "incorrect_answers": [
+      "B. char",
+      "C. float",
+      "D. double"
+    ]
+  },
+  {
+    "id": "36",
+    "question": "Dạng tổng quát của hàm printf() là: `printf(\"dãy mã quy cách\", dãy mã biểu thức);` Trong đó, dãy mã quy cách sẽ là:",
+    "correct_answer": "D. Cả 3 phương án trên",
+    "incorrect_answers": [
+      "A. Dãy các mã định dạng dữ liệu hiển thị",
+      "B. Con trỏ của xâu kí tự",
+      "C. Các xâu kí tự mang tính chất thông báo"
+    ]
+  },
+  {
+    "id": "37",
+    "question": "Trong các hàm sau, hàm nào là hàm không định dạng để nhập một kí tự từ bàn phím?",
+    "correct_answer": "B. getchar()",
+    "incorrect_answers": [
+      "A. scanf();",
+      "C. getch();",
+      "D. getche();"
+    ]
+  },
+  {
+    "id": "38",
+    "question": "Trong các hàm sau, hàm nào để nhập một kí tự từ bàn phím ngay sau khi gõ, không chờ nhấn Enter và không hiện ra màn hình",
+    "correct_answer": "D. getche();",
+    "incorrect_answers": [
+      "A. scanf();",
+      "B. getchar();",
+      "C. getch();"
+    ]
+  },
+  {
+    "id": "39",
+    "question": "Phát biểu nào sau đây không phải là lợi ích của việc dùng hàm?",
+    "correct_answer": "D. Tất cả đều sai",
+    "incorrect_answers": [
+      "A. Tránh dư thừa, lặp lại nhiều lần một đoạn lệnh",
+      "B. Dễ bảo trì",
+      "C. Khả năng sử dụng lại đoạn lệnh"
+    ]
+  },
+  {
+    "id": "40",
+    "question": "Lệnh nào trong các lệnh sau cho phép đã chuyển tới một nơi nào đó đã được gán nhãn?",
+    "correct_answer": "A. break",
+    "incorrect_answers": [
+      "B. goto",
+      "C. continue",
+      "D. exit"
+    ]
+  },
+  {
+    "id": "41",
+    "question": "Độ ưu tiên đối với các toán tử logic là:",
+    "correct_answer": "D. NOT, AND, OR",
+    "incorrect_answers": [
+      "A. AND, NOT, OR",
+      "B. NOT, OR, AND",
+      "C. OR, NOT, AND"
+    ]
+  },
+  {
+    "id": "42",
+    "question": "Phát biểu nào sau đây không phải là lợi ích của việc dùng hàm?",
+    "correct_answer": "D. Tất cả đều sai",
+    "incorrect_answers": [
+      "A. Tránh dư thừa, lặp lại nhiều lần một đoạn lệnh",
+      "B. Dễ bảo trì",
+      "C. Khả năng sử dụng lại đoạn lệnh"
+    ]
+  },
+  {
+    "id": "43",
+    "question": "Để khai báo một biến kiểu `double` có giá trị là 10.0 thì sử dụng cú pháp nào?",
+    "correct_answer": "A. double x = 10.0;",
+    "incorrect_answers": [
+      "B. x = 10.0;",
+      "C. double x = 10;",
+      "D. double x = (float)10;"
+    ]
+  },
+  {
+    "id": "44",
+    "question": "Khai báo các biến: int m,n; float x,y; Lệnh nào sai :",
+    "correct_answer": "D. m=2.5",
+    "incorrect_answers": [
+      "A. n=5",
+      "B. x=10",
+      "C. y=12.5"
+    ]
+  },
+  {
+    "id": "45",
+    "question": "Kết quả in ra màn hình của biểu thức sau là gì: -3+4%5/2",
+    "correct_answer": "A. -1",
+    "incorrect_answers": [
+      "B. -3",
+      "C. 1",
+      "D. Kết quả khác"
+    ]
+  },
+  {
+    "id": "46",
+    "question": "Kí hiệu nào là con trỏ của phần tử thứ 3 của màng a có 4 kí tự:",
+    "correct_answer": "A. *(a+3);",
+    "incorrect_answers": [
+      "B. *(a+2);",
+      "C. *a+3;",
+      "D. *(a+4);"
+    ]
+  },
+  {
+    "id": "47",
+    "question": "Phép cộng 1 con trỏ với một số nguyên sẽ là",
+    "correct_answer": "D. Cả hai kết quả đều sai",
+    "incorrect_answers": [
+      "A. Một con trỏ có cùng kiểu",
+      "B. Một số nguyên",
+      "C. Cả hai kết quả đều đúng"
+    ]
+  },
+  {
+    "id": "48",
+    "question": "Phép trừ 2 con trỏ có cùng kiểu sẽ là",
+    "correct_answer": "B. Một số nguyên",
+    "incorrect_answers": [
+      "A. Một con trỏ có cùng kiểu",
+      "C. Kết quả khác",
+      "D. Không thực hiện được"
+    ]
+  },
+  {
+    "id": "49",
+    "question": "Kiểu dữ liệu nào có thể chứa giá trị lớn nhất?",
+    "correct_answer": "D. double",
+    "incorrect_answers": [
+      "A. float",
+      "B. long double",
+      "C. long"
+    ]
+  },
+  {
+    "id": "50",
+    "question": "Sự hiệu chỉnh các kiểu dữ liệu số học khi tính toán là:",
+    "correct_answer": "C. int -> double -> float -> long -> long double",
+    "incorrect_answers": [
+      "A. int -> long -> float -> double -> long double",
+      "B. int -> float -> long -> double -> long double",
+      "D. long -> int -> float -> double -> long double"
+    ]
+  },
+  {
+    "id": "50",
+    "question": "Để khai báo 1 hàm kiểm tra một mảng là tăng hay không ta dùng khai báo nào dưới đây:",
+    "correct_answer": "B. int CheckAsc(int *a, int n);",
+    "incorrect_answers": [
+      "A. void CheckAsc(int a[], int n);",
+      "C. long CheckAsc(int *S);",
+      "D. double CheckAsc(int S[], int n);"
+    ]
+  },
+  {
+    "id": "52",
+    "question": "Câu 4:",
+    "correct_answer": "C. Giá trị của n được tăng sau khi giá trị của nó được sử dụng",
+    "incorrect_answers": [
+      "A. Giá trị n giảm đi sau khi giá trị của nó được sử dụng",
+      "B. Giá trị n giảm đi trước khi giá trị của nó được sử dụng",
+      "D. Giá trị của n được tăng lên trước khi giá trị của nó được sử dụng"
+    ]
+  },
+  {
+    "id": "53",
+    "question": "Câu 5: Toán tử “n--” được hiểu:",
+    "correct_answer": "A. Giá trị n giảm đi sau khi giá trị của nó được sử dụng",
+    "incorrect_answers": [
+      "B. Giá trị n giảm đi trước khi giá trị của nó được sử dụng",
+      "C. Giá trị của n được tăng sau khi giá trị của nó được sử dụng",
+      "D. Giá trị của n được tăng lên trước khi giá trị của nó được sử dụng"
+    ]
+  },
+  {
+    "id": "54",
+    "question": "Phép toán 1 ngôi nào dùng để xác định giá trị ở địa chỉ con trỏ trỏ tới:",
+    "correct_answer": "C. *;",
+    "incorrect_answers": [
+      "A. !;",
+      "B. &;",
+      "D. Kết quả khác"
+    ]
+  },
+  {
+    "id": "55",
+    "question": "Câu 7: Phép trừ 1 con trỏ với một số nguyên sẽ là:",
+    "correct_answer": "D. Cả hai kết quả trên đều sai",
+    "incorrect_answers": [
+      "A. Một số nguyên",
+      "B. Một con trỏ cùng kiểu",
+      "C. Cả hai kết quả trên đều đúng"
+    ]
+  },
+  {
+    "id": "56",
+    "question": "Kết quả của câu lệnh printf(“%2f”,123.5678908); là:",
+    "correct_answer": "C. 123.567",
+    "incorrect_answers": [
+      "A. 123.56",
+      "B. 123.567890",
+      "D. Kết quả khác"
+    ]
+  },
+  {
+    "id": "57",
+    "question": "Kết quả của câu lệnh printf(“%02d”,12); là:",
+    "correct_answer": "C. 012",
+    "incorrect_answers": [
+      "A. 12",
+      "B. 0012",
+      "D. Kết quả khác"
+    ]
+  },
+  {
+    "id": "58",
+    "question": "Trong số các định dạng dưới đây, định dạng nào dùng để in ra địa chỉ:",
+    "correct_answer": "C. %p",
+    "incorrect_answers": [
+      "A. %f",
+      "B. %s",
+      "D. %h"
+    ]
+  },
+  {
+    "id": "59",
+    "question": "Khai báo hàm tìm giá trị lớn nhất trong một màng các số long dưới đây, khai báo nào đúng:",
+    "correct_answer": "D. long Max(long *a, int n);",
+    "incorrect_answers": [
+      "A. void Max(long *a);",
+      "B. long Max(long *a[]);",
+      "C. void Max(long a[], int n);"
+    ]
+  },
+  {
+    "id": "60",
+    "question": "Khai báo hàm tính tổng các phần tử trong một mảng các số nguyên dưới đây, khai báo nào đúng:",
+    "correct_answer": "D. Cả 3 phương án trên đều sai.",
+    "incorrect_answers": [
+      "A. void Sum(int a[]);",
+      "B. long Sum( int *a);",
+      "C. void Sum(int a[], int n);"
+    ]
+  }
+]
