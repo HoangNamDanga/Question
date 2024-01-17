@@ -14,6 +14,8 @@ import java.awt.Toolkit;
 import javax.swing.ImageIcon;
 import java.net.URL;
 import java.awt.Image;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import org.bson.Document;
@@ -22,18 +24,14 @@ import org.bson.conversions.Bson;
  *
  * @author ADMIN
  */
-public class LoginJFrame extends javax.swing.JFrame {
+public class LoginJFrame extends javax.swing.JFrame{
 
     /**
      * Creates new form LoginJFrame
      */
     public LoginJFrame() {
         initComponents();
-        this.setTitle("Login");
-        this.setSize(1600,900);
-        this.setLocationRelativeTo(null);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.jPanel1.setBackground(Color.lightGray);
+        initStaticData();
 //        URL url_img_login = LoginJFrame.class.getResource("Exit.png");
 //        Image img = Toolkit.getDefaultToolkit().createImage(url_img_login);
 //        this.setIconImage(img);
@@ -41,6 +39,33 @@ public class LoginJFrame extends javax.swing.JFrame {
 //        jButton1.setIcon(new ImageIcon(Toolkit.getDefaultToolkit().createImage(LoginJFrame.class.getResource("login.jpg"))));
 //        jButton1.setFont(new Font("Arial", Font.BOLD, 50));
 //        jButton1.setSize(50, 50);
+    }
+    public void initStaticData(){
+        this.setTitle("Login");
+        this.setSize(1600,900);
+        this.setLocationRelativeTo(null);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.jPanel1.setBackground(Color.lightGray);
+    }
+    public void login(){
+        MongoDB mongoDB = new MongoDB(); // kết nối mongoDB
+        String txtUserName = this.jTextUserName.getText(); // lấy giá trị ô Jtext
+        String txtPassWord = String.valueOf(this.jTextPassword.getPassword()); // lấy giá trị ô password
+        Bson filter = Filters.and( // tìm kiếm nhiều tiêu chí trong một câu truy vấn
+              Filters.eq("UserName",txtUserName), // so sánh trong db mongoDB và ô input ng dùng nhập vào
+              Filters.eq("Password",txtPassWord)
+        );
+        MongoCursor<Document> cursor = mongoDB.userCollection.find(filter).iterator(); // biến cursor (con trỏ) hứng kết quả truy vấn đã tìm đc
+        
+        boolean check = cursor.hasNext();
+        
+        if(check){ // nếu tìm thấy
+            ChooseSubjectJFrame chooseSubjectJFrame = new ChooseSubjectJFrame(); // tọa đối tượng JFrame
+            chooseSubjectJFrame.show(); // move sang trang ChooseSubject
+            this.hide(); // ẩn trang login
+        }else{
+            JOptionPane.showMessageDialog(this, "Sai password");
+        }
     }
 
     /**
@@ -78,9 +103,9 @@ public class LoginJFrame extends javax.swing.JFrame {
         jLabel2.setText("PassWord");
 
         jTextUserName.setPreferredSize(new java.awt.Dimension(22, 22));
-        jTextUserName.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextUserNameActionPerformed(evt);
+        jTextUserName.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextUserNameKeyPressed(evt);
             }
         });
 
@@ -90,9 +115,19 @@ public class LoginJFrame extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
+        jButton1.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jButton1KeyPressed(evt);
+            }
+        });
 
         jTextPassword.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jTextPassword.setActionCommand("<Not Set>");
+        jTextPassword.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyPressed(java.awt.event.KeyEvent evt) {
+                jTextPasswordKeyPressed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -111,7 +146,7 @@ public class LoginJFrame extends javax.swing.JFrame {
                             .addComponent(jButton1)
                             .addComponent(jTextPassword, javax.swing.GroupLayout.DEFAULT_SIZE, 232, Short.MAX_VALUE)))
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(184, 184, 184)
+                        .addGap(190, 190, 190)
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(175, Short.MAX_VALUE))
         );
@@ -143,17 +178,17 @@ public class LoginJFrame extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(571, 571, 571)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                .addContainerGap(572, Short.MAX_VALUE)
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 427, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(542, Short.MAX_VALUE))
+                .addGap(541, 541, 541))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
-                .addGap(25, 25, 25)
+                .addContainerGap()
                 .addComponent(jLabel4)
-                .addContainerGap(25, Short.MAX_VALUE))
+                .addContainerGap(44, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -192,31 +227,27 @@ public class LoginJFrame extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jTextUserNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextUserNameActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextUserNameActionPerformed
-
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-        MongoDB mongoDB = new MongoDB(); // kết nối mongoDB
-        String txtUserName = this.jTextUserName.getText(); // lấy giá trị ô Jtext
-        String txtPassWord = String.valueOf(this.jTextPassword.getPassword()); // lấy giá trị ô password
-        Bson filter = Filters.and( // tìm kiếm nhiều tiêu chí trong một câu truy vấn
-              Filters.eq("UserName",txtUserName), // so sánh trong db mongoDB và ô input ng dùng nhập vào
-              Filters.eq("Password",txtPassWord)
-        );
-        MongoCursor<Document> cursor = mongoDB.userCollection.find(filter).iterator(); // biến cursor (con trỏ) hứng kết quả truy vấn đã tìm đc
-        
-        boolean check = cursor.hasNext();
-        
-        if(check){ // nếu tìm thấy
-            ChooseSubjectJFrame chooseSubjectJFrame = new ChooseSubjectJFrame(); // tọa đối tượng JFrame
-            chooseSubjectJFrame.show(); // move sang trang ChooseSubject
-            this.hide(); // ẩn trang login
-        }else{
-            JOptionPane.showMessageDialog(this, "Sai password");
-        }
+            login();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jTextPasswordKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextPasswordKeyPressed
+        if(evt.getKeyCode() == KeyEvent.VK_ENTER){
+            login();
+        }
+    }//GEN-LAST:event_jTextPasswordKeyPressed
+
+    private void jButton1KeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jButton1KeyPressed
+        if(evt.getKeyCode() == KeyEvent.VK_ENTER){
+            login();
+        }
+    }//GEN-LAST:event_jButton1KeyPressed
+
+    private void jTextUserNameKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_jTextUserNameKeyPressed
+        if(evt.getKeyCode() == KeyEvent.VK_ENTER){
+            login();
+        }
+    }//GEN-LAST:event_jTextUserNameKeyPressed
 
     /**
      * @param args the command line arguments
@@ -265,4 +296,5 @@ public class LoginJFrame extends javax.swing.JFrame {
     private javax.swing.JPasswordField jTextPassword;
     private javax.swing.JTextField jTextUserName;
     // End of variables declaration//GEN-END:variables
+
 }

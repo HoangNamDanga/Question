@@ -33,15 +33,10 @@ public class ChooseSubjectJFrame extends javax.swing.JFrame {
      */
     public ChooseSubjectJFrame() {
         initComponents();
-        this.setTitle("Exam");
-        this.setSize(1600,900);
-        this.setLocationRelativeTo(null);
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.jPanel2.setBackground(Color.lightGray);
-        this.jPanel1.setBackground(Color.lightGray);
+        initStaticData();
         MongoDB mongoDB = new MongoDB();
         FindIterable<Document> cursor = mongoDB.subjectCollection.find(); 
-        String[] lstModel = new String[4];
+        String[] lstModel = new String[3];
         int i = 0;
         
         for(Document doc : cursor) {
@@ -52,17 +47,25 @@ public class ChooseSubjectJFrame extends javax.swing.JFrame {
         
         ComboBoxModel<String> comboBoxModel = new DefaultComboBoxModel<>(lstModel);
         this.jComboBox2.setModel(comboBoxModel);
-        try {
-            UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.GTKLookAndFeel");
-        } catch (ClassNotFoundException ex) {
-            Logger.getLogger(ChooseSubjectJFrame.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (InstantiationException ex) {
-            Logger.getLogger(ChooseSubjectJFrame.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (IllegalAccessException ex) {
-            Logger.getLogger(ChooseSubjectJFrame.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (UnsupportedLookAndFeelException ex) {
-            Logger.getLogger(ChooseSubjectJFrame.class.getName()).log(Level.SEVERE, null, ex);
-        }
+//        try {
+//            UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.GTKLookAndFeel");
+//        } catch (ClassNotFoundException ex) {
+//            Logger.getLogger(ChooseSubjectJFrame.class.getName()).log(Level.SEVERE, null, ex);
+//        } catch (InstantiationException ex) {
+//            Logger.getLogger(ChooseSubjectJFrame.class.getName()).log(Level.SEVERE, null, ex);
+//        } catch (IllegalAccessException ex) {
+//            Logger.getLogger(ChooseSubjectJFrame.class.getName()).log(Level.SEVERE, null, ex);
+//        } catch (UnsupportedLookAndFeelException ex) {
+//            Logger.getLogger(ChooseSubjectJFrame.class.getName()).log(Level.SEVERE, null, ex);
+//        }
+    }
+    public void initStaticData(){
+        this.setTitle("Exam");
+        this.setSize(1600,900);
+        this.setLocationRelativeTo(null);
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.jPanel2.setBackground(Color.lightGray);
+        this.jPanel1.setBackground(Color.lightGray);
     }
 
     /**
@@ -220,9 +223,11 @@ public class ChooseSubjectJFrame extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        QuestionJFrame frame = new QuestionJFrame();
+        String subject = this.jComboBox2.getSelectedItem().toString();
+        QuestionJFrame frame = new QuestionJFrame(subject);
         frame.show();
-        frame.subjectCode = this.jComboBox2.getSelectedItem().toString();
+        this.hide();
+        
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

@@ -15,9 +15,8 @@ public class Question {
     private int qid;// id tuwj tawng cuar mongoDB
     private String title;
     private List<String> options;
-    private String answer;
+    private int answer;
     private int status = 0;
-
     public int getQid() {
         return qid;
     }
@@ -34,7 +33,7 @@ public class Question {
         this.status = status;
     }
 
-    public Question(int qid, String title, List<String> options, String answer) {
+    public Question(int qid, String title, List<String> options, int answer) {
         this.qid = qid;
         this.title = title;
         this.options = options;
@@ -57,15 +56,15 @@ public class Question {
         this.options = options;
     }
 
-    public String getAnswer() {
+    public int getAnswer() {
         return answer;
     }
 
-    public void setAnswer(String answer) {
+    public void setAnswer(int answer) {
         this.answer = answer;
     }
     
-    public String getAnswerA(){
+    public String getAnswerA(){ // //
         return getOptions().get(0);
     }
     public String getAnswerB(){

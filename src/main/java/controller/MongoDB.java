@@ -20,4 +20,5 @@ public class MongoDB {
     public MongoCollection<Document> subjectCollection = db.getCollection("Subject"); // Replace with your collection name
     public MongoCollection<Document> epcCollection = db.getCollection("EPC");
     public MongoCollection<Document> javaCollection = db.getCollection("JAVA");
+    public MongoCollection<Document> htmlCollection = db.getCollection("HTML5");
 }
