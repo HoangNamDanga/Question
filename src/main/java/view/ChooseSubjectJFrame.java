@@ -47,17 +47,7 @@ public class ChooseSubjectJFrame extends javax.swing.JFrame {
         
         ComboBoxModel<String> comboBoxModel = new DefaultComboBoxModel<>(lstModel);
         this.jComboBox2.setModel(comboBoxModel);
-//        try {
-//            UIManager.setLookAndFeel("com.sun.java.swing.plaf.gtk.GTKLookAndFeel");
-//        } catch (ClassNotFoundException ex) {
-//            Logger.getLogger(ChooseSubjectJFrame.class.getName()).log(Level.SEVERE, null, ex);
-//        } catch (InstantiationException ex) {
-//            Logger.getLogger(ChooseSubjectJFrame.class.getName()).log(Level.SEVERE, null, ex);
-//        } catch (IllegalAccessException ex) {
-//            Logger.getLogger(ChooseSubjectJFrame.class.getName()).log(Level.SEVERE, null, ex);
-//        } catch (UnsupportedLookAndFeelException ex) {
-//            Logger.getLogger(ChooseSubjectJFrame.class.getName()).log(Level.SEVERE, null, ex);
-//        }
+
     }
     public void initStaticData(){
         this.setTitle("Exam");

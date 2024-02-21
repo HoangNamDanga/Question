@@ -12,6 +12,9 @@ import controller.MongoDB;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.InputEvent;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -20,8 +23,12 @@ import java.util.Date;
 import java.util.List;
 import java.util.UUID;
 import javax.swing.DefaultListModel;
+import javax.swing.InputMap;
+import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
+import javax.swing.KeyStroke;
 import javax.swing.ListCellRenderer;
 import javax.swing.ListModel;
 import javax.swing.Timer;
@@ -34,7 +41,7 @@ import org.bson.Document;
  */
 public class QuestionJFrame extends javax.swing.JFrame {
 
-    public String subjectCode ="EPC";
+    public String subjectCode;
     List<Question> list = new ArrayList<Question>();
     List<Question> listTotal = new ArrayList<Question>();//TTổng số câu
     int Limit = 20;//Max 20 câu hỏi
@@ -70,9 +77,65 @@ public class QuestionJFrame extends javax.swing.JFrame {
             this.jPanel3.setBackground(Color.lightGray);
             this.jPanel2.setBackground(Color.lightGray);
             
-            this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            this.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+            
+            // xử lý phím tắt Prex
+            this.jList1.addKeyListener(new CustomKeyLinstener());
+            this.jPanel3.addKeyListener(new CustomKeyLinstener());
+            this.jButton5.addKeyListener(new CustomKeyLinstener());
+            this.jButton6.addKeyListener(new CustomKeyLinstener());
+            this.jButton3.addKeyListener(new CustomKeyLinstener());
+            this.jButton4.addKeyListener(new CustomKeyLinstener());
+            this.jRadioButtonA.addKeyListener(new CustomKeyLinstener());
+            this.jRadioButtonB.addKeyListener(new CustomKeyLinstener());
+            this.jRadioButtonC.addKeyListener(new CustomKeyLinstener());
+            this.jRadioButtonD.addKeyListener(new CustomKeyLinstener());
+            InputMap imA = jRadioButtonA.getInputMap(JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
+            imA.put(KeyStroke.getKeyStroke("RIGHT"), "none");
+            imA.put(KeyStroke.getKeyStroke("LEFT"), "none");
+            InputMap imB = jRadioButtonB.getInputMap(JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
+            imB.put(KeyStroke.getKeyStroke("RIGHT"), "none");
+            imB.put(KeyStroke.getKeyStroke("LEFT"), "none");
+            InputMap imC = jRadioButtonC.getInputMap(JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
+            imC.put(KeyStroke.getKeyStroke("RIGHT"), "none");
+            imC.put(KeyStroke.getKeyStroke("LEFT"), "none");
+            InputMap imD = jRadioButtonD.getInputMap(JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
+            imD.put(KeyStroke.getKeyStroke("RIGHT"), "none");
+            imD.put(KeyStroke.getKeyStroke("LEFT"), "none");
+        }
+        
+        class CustomKeyLinstener implements KeyListener {
+        
+        @Override
+        public void keyTyped(KeyEvent e) {
+        }
+
+        @Override
+        public void keyPressed(KeyEvent e) {
+            switch (e.getKeyCode()) {
+                case KeyEvent.VK_ENTER:
+                    accept();
+                    break;
+                case KeyEvent.VK_RIGHT:
+                    nextPage(); 
+                    break;
+                case KeyEvent.VK_LEFT:
+                    backPage();
+                    break;
+                case KeyEvent.VK_F4:
+                    exit();
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        @Override
+        public void keyReleased(KeyEvent e) {
+        }
             
         }
+        
         public void Timer(){
             timer = new Timer(1000, new ActionListener() {
         @Override
@@ -125,7 +188,7 @@ public class QuestionJFrame extends javax.swing.JFrame {
         public void View(){
         q = list.get(pos);
         this.jLabelTitle.setText("<html><p>" + "Câu số " + (pos + 1) + " :  " + q.getTitle() +  "</p></html>");
-        this.jRadioButtonA.setText("A  " + q.getAnswerA());
+        this.jRadioButtonA.setText("A " + q.getAnswerA());
         this.jRadioButtonB.setText("B " + q.getAnswerB());
         this.jRadioButtonC.setText("C " + q.getAnswerC());
         this.jRadioButtonD.setText("D " + q.getAnswerD());
@@ -135,7 +198,7 @@ public class QuestionJFrame extends javax.swing.JFrame {
                 OnOff(status); 
                 break;
             case 2:
-                OnOff(status);
+            
                 break;
             case 3:
                 OnOff(status);
@@ -182,17 +245,23 @@ public class QuestionJFrame extends javax.swing.JFrame {
         this.jRadioButtonD.setBackground(Color.lightGray);
     }
     public void accept(){
-        int point = 0;
-        Boolean pass = false;
-        for (int i = 0; i < this.list.size(); i++) {
-            var item = this.list.get(i);
-            if(item.getStatus() == item.getAnswer()){
-                point++;
+        int dialogButton = JOptionPane.OK_CANCEL_OPTION;
+        int result = JOptionPane.showConfirmDialog(null, "Bạn có chắc chắn tiếp tục không?", "Warning", dialogButton,HEIGHT);
+            if (result == JOptionPane.OK_OPTION) {
+            int point = 0;
+       
+            for (int i = 0; i < this.list.size(); i++) {
+                var item = this.list.get(i);
+                if(item.getStatus() == item.getAnswer()){
+                    point++;
+                }
             }
-        }
-        ResultViewJFrame rvj = new ResultViewJFrame(point);
-        rvj.show();
-        this.hide();
+            ResultViewJFrame rvj = new ResultViewJFrame(point);
+            rvj.show();
+            this.hide();
+            } else if (result == JOptionPane.NO_OPTION) {
+                
+            }
     }
     
     /**
@@ -359,7 +428,7 @@ public class QuestionJFrame extends javax.swing.JFrame {
         jPanel3.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 0, 50, -1));
 
         jButton3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton3.setText("Nộp bài");
+        jButton3.setText("Submit");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -367,7 +436,12 @@ public class QuestionJFrame extends javax.swing.JFrame {
         });
 
         jButton4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jButton4.setText("Thoát");
+        jButton4.setText("Exit");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
 
         jButton5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jButton5.setText("Prev");
@@ -470,23 +544,47 @@ public class QuestionJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton3ActionPerformed
     
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        nextPage();
+    }//GEN-LAST:event_jButton6ActionPerformed
+    
+    public void nextPage(){
         if(pos == 19){
             return;  
         }
         pos++;
         this.jList1.setSelectedIndex(pos);
+        this.jList1.ensureIndexIsVisible(pos);
         View();
-    }//GEN-LAST:event_jButton6ActionPerformed
-
+    };
+    
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+       backPage();
+    }//GEN-LAST:event_jButton5ActionPerformed
+    
+    public void backPage(){
         if(pos == 0){
             return;
         }
         pos--;
         this.jList1.setSelectedIndex(pos);
+        this.jList1.ensureIndexIsVisible(pos);
         View();
-    }//GEN-LAST:event_jButton5ActionPerformed
-
+    }
+    
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        exit();
+    }//GEN-LAST:event_jButton4ActionPerformed
+    public void exit(){
+        int dialogButton = JOptionPane.YES_NO_OPTION;
+        int result = JOptionPane.showConfirmDialog(null, "Bạn có chắc chắn thoát chương trình không?", "Warning", dialogButton,HEIGHT);
+        if (result == JOptionPane.YES_OPTION) {
+            this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            QuestionJFrame questionJFrame = new QuestionJFrame();
+            questionJFrame.hide();
+        }else{
+            return;
+        }
+    }
     /**
      * @param args the command line arguments
      */
