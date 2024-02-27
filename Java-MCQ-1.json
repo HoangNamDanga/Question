@@ -1,0 +1,666 @@
+[
+{
+"title": "Đâu là câu SAI về ngôn ngữ Java?",
+"answer": 4,
+"options": [
+"Ngôn ngữ Java có phân biệt chữ hoa – chữ thường",
+        "Java là ngôn ngữ lập trình hướng đối tượng",
+        "Dấu chấm phẩy được sử dụng để kết thúc lệnh trong Java",
+        "Chương trình viết bằng Java chỉ có thể chạy trên hệ điều hành Windows"
+      ],
+      "qid": 1
+    }
+    ,
+    {
+      "title": "Đâu không phải là một kiểu dữ liệu nguyên thủy trong Java?",
+      "answer": 4,
+      "options": [
+        "double",
+        "int",
+        "long",
+        "long float"
+      ],
+      "qid": 2
+    },
+    {
+      "title": "Trong câu lệnh sau: public static void main(String[] args) thì phần tử args[0] chứa giá trị gì?",
+      "answer": 3,
+      "options": [
+        "Tên của chương trình",
+        "Số lượng tham số",
+        "Tham số đầu tiên của danh sách tham số",
+        "Không câu nào đúng"
+      ],
+      "qid": 3
+    },
+    {
+      "title": "Phương thức next() của lớp Scanner dùng để làm gì?",
+      "answer": 3,
+      "options": [
+        "Nhập một số nguyên",
+        "Nhập một ký tự",
+        "Nhập một chuỗi",
+        "Không có phương thức này"
+      ],
+      "qid": 4
+    },
+    {
+      "title": "Muốn chạy được chương trình Java, chỉ cần cài phần mềm nào sau đây?",
+      "answer": 4,
+      "options": [
+        "Netbeans",
+        "Eclipse",
+        "JDK",
+        "Java Platform"
+      ],
+      "qid": 5
+    },
+    {
+      "title": "Gói nào trong Java chứa lớp Scanner dùng để nhập dữ liệu từ bàn phím?",
+      "answer": 3,
+      "options": [
+        "java.net",
+        "java.io",
+        "java.util",
+        "java.awt"
+      ],
+      "qid": 6
+    },
+    {
+      "title": "Phương thức nextLine() thuộc lớp nào?",
+      "answer": 2,
+      "options": [
+        "String",
+        "Scanner",
+        "Integer",
+        "System"
+      ],
+      "qid": 7
+    },
+    {
+      "title": "Tên đầu tiên của Java là gì?",
+      "answer": 2,
+      "options": [
+        "Java",
+        "Oak",
+        "Cafe",
+        "James Gosling"
+      ],
+      "qid": 8
+    },
+    {
+      "title": "G/s đã định nghĩa lớp XX với một phương thức thông thường là Display, sau đó sinh ra đối tượng objX từ lớp XX. Để gọi phương thức Display ta sử dụng cú pháp nào?",
+      "answer": 3,
+      "options": [
+        "XX.Display;",
+        "XX.Display();",
+        "objX.Display();",
+        "Display();"
+      ],
+      "qid": 9
+    },
+    {
+      "title": "Đâu KHÔNG phải là thành phần trong cấu trúc của lớp trong Java.",
+      "answer": 4,
+      "options": [
+        "Tên lớp",
+        "Thuộc tính",
+        "Phương thức",
+        "Biến"
+      ],
+      "qid": 10
+    },
+    {
+      "title": "Hàm tạo được sử dụng để hủy đối tượng",
+      "answer": 3,
+      "options": [
+        "Cả hai câu đều đúng",
+        "Cả hai câu đều sai",
+        "Câu 1 đúng, câu 2 sai",
+        "Câu 2 đúng, câu 1 sai"
+      ],
+      "qid": 11
+    },
+    {
+      "title": "Đọc đoạn mã lệnh sau. Sau khi thực thi chương trình sẽ in ra kết quả gì?",
+      "answer": 2,
+      "options": [
+        "x=-1 y=2",
+        "Lỗi biên dịch: Uncompilable source code - incompatible types",
+        "x=-1 y=-13",
+        "x=-1 y=4"
+      ],
+      "qid": 12
+    },
+    {
+      "title": "Đối tượng là gì?",
+      "answer": 2,
+      "options": [
+        "Các lớp được tạo thể hiện từ đó",
+        "Một thể hiện của lớp",
+        "Một tham chiếu đến một thuộc tính",
+        "Một biến"
+      ],
+      "qid": 13
+    },
+    {
+      "title": "Đâu là khai báo biến đúng trong Java?",
+      "answer": 3,
+      "options": [
+        "12345",
+        "123",
+        "124",
+        "125"
+      ],
+      "qid": 14
+    },
+    {
+      "title": "Đọc đoạn mã sau. Kết quả in ra của đoạn mã trên là gì?",
+      "answer": 4,
+      "options": [
+        "i = 6 and j = 5",
+        "i = 5 and j = 5",
+        "i = 6 and j = 4",
+        "i = 5 and j = 6"
+      ],
+      "qid": 15
+    },
+    {
+      "title": "Với giá trị nào của x, biểu thức sau trả về giá trị true (x thuộc kiểu int). x%3==0",
+      "answer": 4,
+      "options": [
+        "2",
+        "7",
+        "4",
+        "9"
+      ],
+      "qid": 16
+    },
+    {
+      "title": "Lựa chọn đáp án phù hợp:",
+      "answer": 1,
+      "options": [
+        "a-4, b-5, c-2, d-1, e-3",
+        "a-1, b-2, c-2, d-1, e-3",
+        "C .a-1, b-5, c-4, d-4, e-3",
+        "a-5, b-4, c-1, d-2, e-3"
+      ],
+      "qid": 17
+    },
+    {
+      "title": "Kiểu dữ liệu nào trong Java chứa giá trị bao gồm cả chữ và số?",
+      "answer": 4,
+      "options": [
+        "int",
+        "byte",
+        "char",
+        "String"
+      ],
+      "qid": 18
+    },
+    {
+      "title": "Kết quả in ra của đoạn mã trên là gì?",
+      "answer": 2,
+      "options": [
+        "000000000",
+        "0123456789",
+        "Lỗi biên dịch",
+        "Đoạn mã thực thi nhưng không in ra kết quả gì"
+      ]
+      ,
+      "qid": 19
+    },
+    {
+      "title": "Đâu là khai báo biến hợp lệ?",
+      "answer": 1,
+      "options": [
+        "theOne",
+        "the One",
+        "1the_One",
+        "$the One"
+      ],
+      "qid": 20
+    },
+    {
+      "title": "Biểu thức nào có giá trị khác các biểu thức còn lại trong các biểu thức sau? Cho x=true thuộc kiểu boolean.",
+      "answer": 4,
+      "options": [
+        "true",
+        "x==true;",
+        "1==1",
+        "!x"
+      ],
+      "qid": 21
+    },
+    {
+      "title": "Có mấy cách để truyền tham số vào cho một phương thức? Chọn một câu trả lời",
+      "answer": 1,
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "qid": 22
+    },
+    {
+      "title": "Kết quả in ra của đoạn mã bên dưới là gì? Chọn một câu trả lời",
+      "answer": 4,
+      "options": [
+        "value = 3",
+        "value = 4",
+        "value = 5",
+        "value = 7"
+      ],
+      "qid": 23
+    },
+    {
+      "title": "Khi thực hiện lệnh: A a = new A(); a.calTotal(a); Giá trị của x sau khi thực hiện lệnh trên sẽ cho kết quả gì?",
+      "answer": 2,
+      "options": [
+        "10",
+        "12",
+        "22",
+        "24"
+      ],
+      "qid": 24
+    },
+    {
+      "title": "Đâu là khai báo đúng về lớp Cat? Chọn một câu trả lời",
+      "answer": 3,
+      "options": [
+        "Class Cat{}",
+        "class public Cat(){}",
+        "class Cat{}",
+        "public Cat class{}"
+      ],
+      "qid": 25
+    },
+    {
+      "title": "Đoạn mã sau có lỗi biên dịch gì? Chọn một câu trả lời",
+      "answer": 1,
+      "options": [
+        "Không có lỗi biên dịch.",
+        "name has protected access.",
+        "age has protected access.",
+        "name has public access."
+      ],
+      "qid": 26
+    },
+    {
+      "title": "Một thành viên của một lớp được khai báo là private không những không thể được truy xuất từ bên trong lớp mà còn không nơi nào bên ngoài lớp. Chọn một câu trả lời",
+      "answer": 2,
+      "options": [
+        "Câu 1 sai, câu 2 đúng",
+        "Câu 1 đúng, câu 2 sai",
+        "Cả 2 câu cùng đúng",
+        "Cả 2 câu cùng sai"
+      ],
+      "qid": 27
+    },
+    {
+      "title": "Trong các khai báo sau đâu là khai báo không hợp lệ? Chọn một câu trả lời",
+      "answer": 1,
+      "options": [
+        "int a1[][] = new int[][3];",
+        "int a2[][] = new int[2][3];",
+        "int a3[][] = new int[2][];",
+        "int a4[][] = {{}, {}, {}}"
+      ],
+      "qid": 28
+    },
+    {
+      "title": "Phát biểu nào sau đây là đúng: Chọn một câu trả lời",
+      "answer": 3,
+      "options": [
+        "Mảng có thể lưu giữ các phần tử thuộc nhiều kiểu dữ liệu khác nhau",
+        "Chỉ số của mảng có thể sử dụng kiểu số thực (float, double)",
+        "Biểu thức array.length được sử dụng để trả về số phần tử trong mảng",
+        "Một phần tử của mảng không thể truyền vào trong một phương thức."
+      ],
+      "qid": 29
+    },
+    {
+      "title": "Chương trình sau in ra màn hình xâu nào? Chọn một câu trả lời",
+      "answer": 2,
+      "options": [
+        "Có lỗi biên dịch: use new keyword to create object",
+        "Peter",
+        "Anna",
+        "Victor"
+      ],
+      "qid": 30
+    },
+    {
+      "title": "Nếu phương thức của bạn ghi đè một trong số các phương thức của lớp cha, bạn có thể gọi phương thức bị ghi đè thông qua từ khóa nào?",
+      "answer": 2,
+      "options": [
+        "parent",
+        "super",
+        "this",
+        "static"
+      ],
+      "qid": 31
+    },
+    {
+      "title": "Đoạn mã sau có lỗi biên dịch nào? Chọn một câu trả lời",
+      "answer": 1,
+      "options": [
+        "Có lỗi biên dịch:sayHello() in Man cannot override sayHello() in Student return type int is not compatible with java.lang.String",
+        "Không có lỗi biên dịch.",
+        "Có lỗi biên dịch:sayHello() in Man cannot override sayHello() in Student because it is final",
+        "Có lỗi biên dịch:sayHello() in Man and in Student has the same access modifier"
+      ],
+      "qid": 32
+    },
+    {
+      "title": "Đoạn mã sau có lỗi biên dịch gì? Chọn một câu trả lời",
+      "answer": 1,
+      "options": [
+        "Không có lỗi biên dịch.",
+        "name has protected access.",
+        "age has protected access.",
+        "name has public access."
+      ],
+      "qid": 33
+    },
+    {
+      "title": "Một thành viên của một lớp được khai báo là private không những không thể được truy xuất từ bên trong lớp mà còn không nơi nào bên ngoài lớp. Chọn một câu trả lời",
+      "answer": 2,
+      "options": [
+        "Câu 1 sai, câu 2 đúng",
+        "Câu 1 đúng, câu 2 sai",
+        "Cả 2 câu cùng đúng",
+        "Cả 2 câu cùng sai"
+      ],
+      "qid": 34
+    },
+    {
+      "title": "Trong các khai báo sau đâu là khai báo không hợp lệ? Chọn một câu trả lời",
+      "answer": 1,
+      "options": [
+        "int a1[][] = new int[][3];",
+        "int a2[][] = new int[2][3];",
+        "int a3[][] = new int[2][];",
+        "int a4[][] = {{}, {}, {}}"
+      ],
+      "qid": 35
+    },
+    {
+      "title": "Phát biểu nào sau đây là đúng: Chọn một câu trả lời",
+      "answer": 3,
+      "options": [
+        "Mảng có thể lưu giữ các phần tử thuộc nhiều kiểu dữ liệu khác nhau",
+        "Chỉ số của mảng có thể sử dụng kiểu số thực (float, double)",
+        "Biểu thức array.length được sử dụng để trả về số phần tử trong mảng",
+        "Một phần tử của mảng không thể truyền vào trong một phương thức."
+      ],
+      "qid": 36
+    },
+    {
+      "title": "Chương trình sau in ra màn hình xâu nào? Chọn một câu trả lời",
+      "answer": 2,
+      "options": [
+        "Có lỗi biên dịch: use new keyword to create object",
+        "Peter",
+        "Anna",
+        "Victor"
+      ],
+      "qid": 37
+    },
+    {
+      "title": "Đoạn mã sau có lỗi biên dịch nào?. Chọn một câu trả lời",
+      "answer": 2,
+      "options": [
+        "Không có lỗi biên dịch.",
+        "Có lỗi biên dịch: Incompatible type, required Man, found Student.",
+        "Có lỗi biên dịch: Incompatible type, required Student, found Man.",
+        "Do not use extends to make subclass."
+      ],
+      "qid": 38
+    },
+    {
+      "title": "Giá trị của x sau khi thực hiện lệnh trên sẽ cho kết quả gì?",
+      "answer": 2,
+      "options": [
+        "10",
+        "12",
+        "22",
+        "44"
+      ],
+      "qid": 39
+    },
+    {
+      "title": "Đâu là khai báo đúng về lớp Cat? Chọn một câu trả lời",
+      "answer": 3,
+      "options": [
+        "Class Cat{}",
+        "class public Cat(){}",
+        "class Cat{}",
+        "public Cat class{}"
+      ],
+      "qid": 40
+    },
+    {
+      "title": "Đâu KHÔNG phải là cách thức để khởi tạo giá trị cho thuộc tính name có kiểu chuỗi của lớp Cat?",
+      "answer": 4,
+      "options": [
+        "class Cat {String name = \"noname\";}",
+        "public class Cat{ String name; public Cat(){name = \"noname\";} }",
+        "public class Cat{ String name; public Cat(String x){name = x;} }",
+        "public class Cat{ String name; public Cat(){ String name = \"noname\"; } }"
+      ],
+      "qid": 41
+    },
+    {
+      "title": "Đoạn mã sau có lỗi biên dịch gì?: public class Person {\nprotected String name;\nprotected int age;\npublic static void main(String[] args) {\nPerson p = new Person();\np.name = \"Tom\";\nSystem.out.println(p.name);\n}\n}",
+      "answer": 1,
+      "options": [
+        "Không có lỗi biên dịch.",
+        "name has protected access.",
+        "age has protected access.",
+        "name has public access"
+      ],
+      "qid": 42
+    },
+    {
+      "title": "Câu 1: Một thành viên protected của một lớp có thể được truy xuất từ bất kỳ lớp nào trong cùng một gói và từ một lớp con nằm bên ngoài gói nếu lớp bên ngoài đó là lớp con. Câu 2:Một thành viên của một lớp được khai báo là private không những không thể được truy xuất từ bên trong lớp mà còn không nơi nào bên ngoài lớp. Chọn một câu trả lời",
+      "answer": 2,
+      "options": [
+        "Câu 1 sai, câu 2 đúng",
+        "Câu 1 đúng, câu 2 sai",
+        "Cả 2 câu cùng đúng",
+        "Cả 2 câu cùng sai"
+      ],
+      "qid": 43
+    },
+    {
+      "title": "File chứa mã nguồn java sau khi được biên dịch có đuôi là gì?",
+      "answer": 2,
+      "options": [
+        ".java",
+        ".class",
+        ".jav",
+        ".exe"
+      ],
+      "qid": 44
+    },
+    {
+      "title": "Java platform gồm mấy thành phần?",
+      "answer": 2,
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+      ,
+      "qid": 45
+    },
+    {
+      "title": "Java Virtual Machine là gì?",
+      "answer": 1,
+      "options": [
+        "Là một thành phần của Java platform dùng để đọc mã bytecode trong file .class",
+        "Là chương trình biên dịch của java dùng để biên dịch file nguồn java thành mã bytecode",
+        "Là chương trình chạy cho java",
+        "Tất cả các đáp án đều đúng"
+      ],
+      "qid": 46
+    },
+    {
+      "title": "Java chạy trên hệ điều hành nào sau đây:",
+      "answer": 4,
+      "options": [
+        "Microsoft Windows",
+        "Linux",
+        "Sun Solaris OS",
+        "Tất cả các đáp án đều đúng."
+      ]
+      ,
+      "qid": 47
+    },
+    {
+      "title": "API là gì?",
+      "answer": 2,
+      "options": [
+        "Thư viện mã nguồn của Java.",
+        "Là thư viện chứa các thành phần phần mềm tạo sẵn cung cấp các chức năng cho chương trình Java.",
+        "Thư viện cung cấp giao diện đồ họa cho chương trình Java.",
+        "Tất cả đều sai."
+      ],
+      "qid": 48
+    },
+    {
+      "title": "Ngôn ngữ lập trình Java cung cấp các chức năng nào sau đây?",
+      "answer": 1,
+      "options": [
+        "Tất cả đáp án trên",
+        "Giao diện lập trình ứng dụng",
+        "Bộ công cụ giao diện người dùng",
+        "Thư viện tích hợp"
+      ],
+      "qid": 49
+    },
+    {
+      "title": "Có bao nhiêu cách viết chú thích trong Java?",
+      "answer": 3,
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "qid": 50
+    },
+    {
+      "title": "Thứ tự các từ khóa public và static khi khai bao như thế nào?",
+      "answer": 3,
+      "options": [
+        "public đứng trước static",
+        "static đứng trước public",
+        "Thứ tự bất kỳ nhưng thông thường public đứng trước",
+        "Tất cả đều sai."
+      ],
+      "qid": 51
+    },
+    {
+      "title": "Câu lệnh khai báo chuẩn cho cách main như thế nào?",
+      "answer": 1,
+      "options": [
+        "public static void main(String[] args) {}",
+        "public static int main(String args) {}",
+        "public static main(String[] args) {}",
+        "public static final void main(String[] args) {}"
+      ],
+      "qid": 52
+    },
+    {
+      "title": "Câu nào sau đây là sai?",
+      "answer": 3,
+      "options": [
+        "/** chú thích */",
+        "/* chú thích */",
+        "/* chú thích",
+        "// chú thích"
+      ],
+      "qid": 53
+    },
+    {
+      "title": "Khi biên dịch gặp lỗi Exception in thread main java.lang.NoClassDefFoundError: myprogram. Lỗi này có nghĩa gì?",
+      "answer": 1,
+      "options": [
+        "Đường dẫn chương trình sai.",
+        "Không có hàm main",
+        "Không khai báo class",
+        "Không có từ khóa public tại mở đầu khai báo class"
+      ],
+      "qid": 54
+    },
+    {
+      "title": "Đối tượng trong phần mềm là gì?",
+      "answer": 4,
+      "options": [
+        "Là một bó phần mềm gồm các hành vi và trạng thái có liên quan với nhau.",
+        "Là vật thể xác định của thế giới thực.",
+        "Là vật thể gồm hành vi và trạng thái.",
+        "Là các đối tượng được biểu diễn trong phần mềm gồm có 2 thuộc tính trường dữ liệu và các cách xử lý dữ liệu."
+     ],
+      "qid": 55
+    },
+    {
+      "title": "Khai báo lớp nào dưới đây là đúng?",
+      "answer": 3,
+      "options": [
+        "public class default {}",
+        "protected inner class engine {}",
+        "final class outer {}",
+        "Tất cả đều sai."
+      ],
+      "qid": 56
+    },
+    {
+      "title": "Cách đặt tên nào sau đây là sai?",
+      "answer": 4,
+      "options": [
+        "2word",
+        "*word",
+        "main",
+        "Tất cả đều sai."
+      ],
+      "qid": 57
+    },
+    {
+      "title": "Một chương trình gồm 2 class sẽ có bao nhiêu cách main?",
+      "answer": 4,
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "qid": 58
+    },
+    {
+      "title": "Một lớp trong Java có thể có bao nhiêu lớp cha?",
+      "answer": 1,
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "qid": 59
+    },
+    {
+      "title": "Một lớp trong Java có bao nhiêu lớp con?",
+      "answer": 4,
+      "options": [
+        "2",
+        "3",
+        "4",
+        "Vô số"
+      ],
+      "qid": 60
+    }
+  ]

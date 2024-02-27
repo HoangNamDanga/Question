@@ -1,0 +1,722 @@
+[
+{
+  "title": "Ngôn ngữ lập trình C được Dennish phát triển dựa trên ngôn ngữ lập trình nào?",
+  "answer": 2,          
+  "options": [
+    " Ngôn ngữ B",
+    " Ngôn ngữ BCPL",
+    " Ngôn ngữ DEC PDP",
+    " Ngôn ngữ B và BCPL"
+  ],
+  "qid": 1
+}
+,
+{
+  "title": "Ngôn ngữ lập trình được Dennish đưa ra vào năm nào?",
+  "answer": 2,        
+  "options": [
+    " 1967",
+    " 1972",
+    " 1970",
+    " 1976"
+  ],
+	"qid":2
+}
+,
+{
+  "title": "Ngôn ngữ lập trình nào dưới đây là ngôn ngữ lập trình có cấu trúc?",
+  "answer": 2,       
+  "options": [
+    " Ngôn ngữ Assembler",
+    " Ngôn ngữ C và Pascal",
+    " Ngôn ngữ Cobol",
+    " a, b và c"
+  ],
+	"qid":3
+}
+,
+{
+  "title": "Những tên biến nào dưới đây được viết đúng theo quy tắc đặt tên của ngôn ngữ lập trình C?",
+  "answer": 1,     
+  "options": [
+    " diem toan",
+    " 3diemtoan",
+    " _diemtoan",
+    " -diemtoan"
+  ],
+	"qid":4
+}
+,
+{
+  "title": "Một biến được gọi là biến toàn cục nếu",
+  "answer": 3,     
+  "options": [
+    " Nó được khai báo tất cả các hàm, ngoại trừ hàm main()",
+    " Nó được khai báo ngoài tất cả các hàm kể cả hàm main()",
+    " Nó được khai báo bên ngoài hàm main()",
+    " Nó được khai báo bên trong hàm main()"
+  ],
+  "qid": 5
+}
+,
+{
+  "title": "Trong lập trình, một hàm có thể được định nghĩa như là",
+  "answer": 4,    
+  "options": [
+    " Một tập hợp các lệnh được thực thi khi hàm được gọi.",
+    " Một khối mã được định nghĩa với một tên và có thể được gọi từ bất kỳ vị trí nào trong chương trình.",
+    " Một khối mã có thể được gọi từ bất kỳ hàm nào khá",
+    " Tất cả các câu trả lời trên đều đúng."
+  ],
+  "qid": 6
+}
+,
+{
+  "title": "Một biến được gọi là một biến địa phương nếu",
+  "answer": 1, 
+  "options": [
+    " Nó được khai báo bên trong các hàm hoặc thủ tục, kể cả hàm main()",
+    " Nó được khai báo bên trong các hàm, ngoại trừ hàm main()",
+    " Nó được khai báo bên trong hàm main()",
+    " Nó được khai báo bên ngoài các hàm kể cả hàm main()"
+  ],
+  "qid": 7
+}
+,
+{
+  "title": "Nếu x là một biến toàn cục và x không phải là một con trỏ thì",
+  "answer": 3,        
+  "options": [
+    " Miền nhớ dành cho x có thể thay đổi trong quá trình thực hiện chương trình",
+    " Miền nhớ dành cho x chỉ có thay đổi bởi những thao tác với x bên trong hàm main()",
+    " Miền nhớ dành cho x sẽ thay đổi bởi những thao tác với x trong tất cả các hàm, kể cả hàm main()",
+    " Miền nhớ giành cho x không bị thay đổi trong quá trình thực hiện chương trình"
+  ],
+  "qid": 8
+}
+,
+{
+  "title": "Giả sử a, b là hai số thự Biểu thức nào dưới đây viết không đúng theo cú pháp của ngôn ngữ lập trình C?",
+  "answer": 4,      
+  "options": [
+    " (a+b)",
+    " (a*=b)",
+    " (a=b)",
+    " (a&=b)"
+  ],
+  "qid": 9
+}
+,
+{
+  "title": "Cho mảng A gồm n phần tử, mỗi phần tử là một số nguyên. Biểu thức nào dưới đây cho phép tìm ra số nguyên nhỏ nhất trong mảng A?",
+  "answer": 3,    
+  "options": [
+    " A[0]",
+    " A[n-1]",
+    " min(A)",
+    " sort()"
+  ],
+  "qid": 10
+}
+,
+{
+  "title": "Xâu định dạng nào dưới đây dùng để in ra một số nguyên hệ 16",
+  "answer": 2,        
+  "options": [
+    " %d",
+    " %x",
+    " %i",
+    " %u"
+  ],
+  "qid": 11
+}
+,
+{
+  "title": "Xâu định dạng nào dưới đây dùng để in ra một số nguyên ở hệ 8",
+  "answer": 3,    
+  "options": [
+    " %ld",
+    " %x",
+    " %0",
+    " %u"
+  ],
+  "qid": 12
+}
+,
+{
+  "title": "Xâu định dạng nào dưới đây dùng để in ra một kí tự",
+  "answer": 1,    
+  "options": [
+    " %c",
+    " %d",
+    " %f",
+    " %x"
+  ],
+  "qid": 13
+}
+,
+{
+  "title": "Xâu định dạng nào dưới đây dùng để in ra một xâu kí tự",
+  "answer": 3,   
+  "options": [
+    " %f",
+    " %x",
+    " %s",
+    " %c"
+  ],
+  "qid": 14
+}
+,
+{
+  "title": "Xâu định dạng nào dưới đây dùng để in ra một số nguyên dài",
+  "answer": 3,     
+  "options": [
+    " %ld",
+    " %x",
+    " %d",
+    " %0"
+  ],
+  "qid": 15
+}
+,
+{
+  "title": "Xâu định dạng nào dưới đây dùng để in ra địa chỉ của một biến",
+  "answer": 4,         
+  "options": [
+    " %u",
+    " %e",
+    " %0",
+    " %p"
+  ],
+  "qid": 16
+}
+,
+{
+  "title": "Xâu định dạng nào dưới đây dùng để in ra một số nguyên",
+  "answer": 3,   
+  "options": [
+    " %u",
+    " %e",
+    " %d",
+    " %p"
+  ],
+  "qid": 17
+}
+,
+{
+  "title": "Xâu định dạng nào dưới đây dùng để in ra một số thực có độ chính xác kép",
+  "answer": 2,         
+  "options": [
+    " %u",
+    " %e",
+    " %0",
+    " %p"
+  ],
+  "qid": 18
+}
+,
+{
+  "title": "Xâu định dạng nào dưới đây dùng để in ra một số thực có độ chính xác đơn",
+  "answer": 3,     
+  "options": [
+    " %u",
+    " %e",
+    " %f",
+    " %0"
+  ],
+  "qid": 19
+}
+,
+
+{
+  "title": "Kiểu dữ liệu int( kiểu số nguyên) có thể xử lí số nguyên nằm trong khoảng nào",
+  "answer": 2,   
+  "options": [
+    " 0...255",
+    " -32768...32767",
+    " -128...127",
+    " 0...65535"
+  ],
+  "qid": 20
+}
+,
+{
+  "title": "Cho a=3, b=2 và c là 3 biến nguyên. Biểu thức nào sau viết sai cú pháp trong ngôn ngữ lập trình C",
+  "answer": 3,
+  "options": [
+    " (c=a & b)",
+    " (c=a && b)",
+    " (c= a/b)",
+    " (c= a<<b)"
+  ],
+  "qid": 21
+}
+,
+{
+  "title": "Giả sử a và b là 2 số thự Biểu thức nào dưới đây là không được phép",
+  "answer": 3,    
+  "options": [
+    " (a+b)",
+    " (a-=b)",
+    " (a>>=b)",
+    " (a*=b)"
+  ],
+  "qid": 22
+}
+,
+{
+  "title": "Cho a=3, b=2, biến c=(a<<=b) sẽ có giá trị nào dưới đây",
+  "answer": 3,  
+  "options": [
+    " 9",
+    " 12",
+    " 8",
+    " 6"
+  ],
+  "qid": 23
+}
+,
+{
+  "title": "Trong các hàm sau, hàm nào là hàm không định dạng để in một chuỗi kí tự ra màn hình",
+  "answer": 1,      
+  "options": [
+    " puts()",
+    " printf()",
+    " scanf()",
+    " gets()"
+  ],
+  "qid": 24
+}
+,
+{
+  "title": "Sử dụng cách truyền nào trong hàm sẽ không làm thay đổi giá trị của biến trong chương trình chính",
+  "answer": 1,    
+  "options": [
+    " Truyền bằng trị",
+    " Truyền bằng giá trị địa chỉ của tham số",
+    " Cả a và b đều đúng",
+    " Cả a và b đều sai"
+  ],
+  "qid": 25
+}
+,
+{
+  "title": "Giá trị của biểu thức 5 > 1 là",
+  "answer": 3,    
+  "options": [
+    " -1",
+    " 0",
+    " 1",
+    " Tất cả đều sai"
+  ],
+  "qid": 26
+}
+,
+{
+  "title": "Cho biết giá trị của biểu thức 2+4>2&4<2",
+  "answer": 2,     
+  "options": [
+    " 1",
+    " 0",
+    " -1",
+    " Tất cả đều sai"
+  ],
+  "qid": 27
+}
+,
+{
+  "title": "Biến con trỏ có thể chứa",
+  "answer": 3,      
+  "options": [
+    " Địa chỉ vùng nhớ của một biển khác",
+    " Giá trị của một biến khác",
+    " Cả a và b đều đúng",
+    " Cả a và b đều sai"
+  ],
+  "qid": 28
+}
+,
+{
+  "title": "Dữ liệu kí tự bao gồm",
+  "answer": 4,      
+  "options": [
+    " Các kí tự số chữ số",
+    " Các kí tự chữ cái",
+    " Các kí tự đặc biệt",
+    " Cả a, b và c"
+  ],
+  "qid": 29
+}
+,
+{
+  "title": "Nếu hàm được gọi trước khi nó được định nghĩa thì điều kiện là gì",
+  "answer": 3,   
+  "options": [
+    " Kiểu trả về của hàm phải là kiểu void",
+    " Kiểu đầu vào của hàm phải là kiểu void",
+    " Trước khi gọi hàm nó phải được khai báo",
+    " Hàm chỉ trả về kiểu dữ liệu boolean"
+  ],
+  "qid": 30
+}
+,
+{
+  "title": "Kiểu dữ liệu float có thể xử lí dữ liệu trong phạm vi nào",
+  "answer": 1,   
+  "options": [
+    " 3.4*10-38 đến 3.4*1038",
+    " -32768 đến 32767",
+    " -128 đến 127",
+    " 0...65535"
+  ],
+  "qid": 31
+}
+,
+{
+  "title": "Kiểu dữ liệu nào dưới đây không được coi là kiểu dữ liệu cơ bản trong ngôn ngữ lập trình C",
+  "answer": 4,     
+  "options": [
+    " Kiểu mảng",
+    " Kiểu enum",
+    " Kiểu short int",
+    " Kiểu unsigned"
+  ],
+  "qid": 32
+}
+,
+{
+  "title": "Lệnh nào trong các lệnh sau cho phép chuyển sang vòng lặp tiếp theo mà không cần phải thực hiện phần còn lại của vòng lặp",
+  "answer": 1,   
+  "options": [
+    " break",
+    " goto",
+    " continue",
+    " return"
+  ],
+  "qid": 33
+}
+,
+{
+  "title": "Trong ngôn ngữ lập trình C, giả sử có câu lệnh ch='A', Vậy ch sẽ chứa bao nhiêu byte",
+  "answer": 1,
+  "options": [
+    " 1",
+    " 2",
+    " 3",
+    " 4"
+  ],
+  "qid": 34
+}
+,
+{
+  "title": "Giả sử có câu lệnh ch[]= \"A\", ch chứa bao nhiêu bytes",
+  "answer": 1,          
+  "options": [
+    " 1",
+    " 2",
+    " 3",
+    " 4"
+  ],
+  "qid": 35
+}
+,
+{
+  "title": "Trong các hàm sau, hàm nào là hàm không định dạng để nhập một kí tự từ bàn phím",
+  "answer": 2,     
+  "options": [
+    " scanf();",
+    " getchar();",
+    " getch();",
+    " getche();"
+  ],
+  "qid": 36
+}
+,
+{
+  "title": "Trong các hàm sau, hàm nào để nhập một kí tự từ bàn phím ngay sau khi gõ, không chờ nhấn Enter và không hiện ra màn hình",
+  "answer": 2,      
+  "options": [
+    " scanf()",
+    " getchar()",
+    " getch()",
+    " getche()"
+  ],
+  "qid": 37
+}
+,
+{
+  "title": "Hàm nào đọc kí tự từ bàn phím ngay sau khi gõ, không chờ nhấn Enter. Các kí tự có hiện ra màn hình",
+  "answer": 2,      
+  "options": [
+    " scanf();",
+    " getchar();",
+    " getch();",
+    " getche();"
+  ],
+  "qid": 38
+}
+,
+{
+  "title": "Lệnh nào trong các lệnh sau cho phép chuyển tới một nơi nào đó đã được gán nhãn",
+  "answer": 2,   
+  "options": [
+    " break",
+    " goto",
+    " continue",
+    " exit"
+  ],
+  "qid": 39
+}
+,
+{
+  "title": "Lệnh nào trong các lệnh sau cho phép dừng câu lệnh điều khiển",
+  "answer": 4,        
+  "options": [
+    " break",
+    " goto",
+    " continue",
+    " Cả 3 phương án trên"
+  ],
+  "qid": 40
+}
+,
+{
+  "title": "Độ ưu tiên của các toán tử logic là",
+  "answer": 4,     
+  "options": [
+    " AND, NOT, OR",
+    " NOT, OR, AND",
+    " OR, NOT, AND",
+    " NOT, AND, OR"
+  ],
+  "qid": 41
+}
+,
+{
+  "title": "Phát biểu nào sau đây không phải là lợi ích của việc dùng hàm",
+  "answer": 4,    
+  "options": [
+    " Tránh dư thừa, lặp lại nhiều lần một đoạn lệnh",
+    " Dễ bảo trì",
+    " Khả năng sử dụng lại đoạn lệnh",
+    " Tất cả đều sai"
+  ],
+  "qid": 42
+}
+,
+{
+  "title": "Khai báo các biến: int m,n; float x,y; Lệnh nào sai ?",
+  "answer": 4,
+  "options": [
+    " n=5",
+    " x=10",
+    " y=-12.5",
+    " m=2.5"
+  ],
+  "qid": 43
+}
+,
+{
+  "title": "Có các khai báo sau: int x=15. int *p; Muốn p là con trỏ trỏ tới x phải thực hiện lệnh nào",
+  "answer": 3,      
+  "options": [
+    " p=x;",
+    " p=8x;",
+    " p=*x;",
+    " Tất cả các lệnh đều đúng"
+  ],
+  "qid": 44
+}
+,
+{
+  "title": "Với mảng a có 4 phần tử, kí hiệu nào là con trỏ của phần tử thứ 3 của mảng a",
+  "answer": 4,       
+  "options": [
+    " *(a+2)",
+    " *a+3",
+    " a+3",
+    " *(a+4)"
+  ],
+  "qid": 45
+}
+,
+{
+  "title": "Phép cộng 1 con trỏ với một số nguyên sẽ là",
+  "answer": 4,        
+  "options": [
+    " Một con trỏ có cùng kiểu",
+    " Một số nguyên",
+    " Cả hai kết quả đều đúng",
+    " Cả hai kết quả đều sai"
+  ],
+  "qid": 46
+}
+,
+{
+  "title": "Phép trừ 2 con trỏ có cùng kiểu sẽ là",
+  "answer": 2,      
+  "options": [
+    " Một con trỏ có cùng kiểu",
+    " Một số nguyên",
+    " Kết quả khác",
+    " Không thực hiện được"
+  ],
+  "qid": 47
+}
+,
+{
+  "title": "Phép toán 1 ngôi nào dùng để xác định địa chỉ của đối tượng mà con trỏ chỉ tới?",
+  "answer": 3,
+  "options": [
+    " *",
+    " !",
+    " &",
+    " Kết quả khác"
+  ],
+  "qid": 48
+}
+,
+{
+  "title": "Sự hiệu chỉnh các kiểu dữ liệu số học khi tính toán",
+  "answer": 2,       
+  "options": [
+    " int -> long -> float -> double -> long double",
+    " int -> float -> long -> double -> long double",
+    " int -> double -> float -> long -> long double",
+    " long -> int -> float -> double -> long double"
+  ],
+  "qid": 49
+}
+,
+{
+  "title": "Khi biến con trỏ không chứa bất kì một địa chỉ nào thì giá trị của nó sẽ là",
+  "answer": 2,   
+  "options": [
+    " 0",
+    " NULL",
+    " Cả hai phương án trên đều đúng",
+    " Cả hai phương án trên đều sai"
+  ],
+  "qid": 50
+}
+,
+{
+  "title": "Các kí hiệu đặc trưng cho sự tác động lên dữ liệu gọi là",
+  "answer": 4,  
+  "options": [
+    " Hàm",
+    " Biểu thức",
+    " Biến",
+    " Toán tử"
+  ],
+  "qid": 51
+}
+,
+{
+  "title": "Những phát biểu nào sau đây là đúng",
+  "answer": 4,       
+  "options": [
+    " Rẽ nhánh là việc chọn ra một trong hai hay nhiều con đường cho việc thực hiện tính toán sau đó",
+    " Lưu đồ có thể có nhiều điểm bắt đầu và kết thúc",
+    " Kiểu kí tự chứa một kí tự nằm trong dấu nháy kép",
+    " Trong các lệnh if lồng nhau, else thuộc về if phía trước gần nó nhất."
+  ],
+  "qid": 52
+}
+,
+{
+  "title": "Cái gì quyết định kích thước của vùng nhớ được cấp phát cho các biến?",
+  "answer": 2,       
+  "options": [
+    " Tên biến",
+    " Kiểu dữ liệu của biến",
+    " Giá trị của biến",
+    " Tất cả đều đúng"
+  ],
+  "qid": 53
+}
+,
+{
+  "title": "Lệnh nào trong các lệnh sau cho phép nhảy ra khỏi vòng lặp đến vị trí bất kì mong muốn?",
+  "answer": 3,     
+  "options": [
+    " break;",
+    " continue;",
+    " goto;",
+    " Không có phương án nào"
+  ],
+  "qid": 54
+}
+,
+{
+  "title": "Trong các hàm sau, hàm nào không định dạng để in một kí tự ra màn hình?",
+  "answer": 3,    
+  "options": [
+    " puts();",
+    " printf();",
+    " putchar();",
+    " B và C"
+  ],
+  "qid": 55
+}
+,
+{
+  "title": "Định nghĩa nào sau đây đúng cho biến cục bộ?",
+  "answer": 1,          
+  "options": [
+    " Biến cục bộ là biến được khai báo trong một hàm",
+    " Biến cục bộ là biến được khai báo trong một chương trình",
+    " Biến cục bộ là biến được khai báo trong một khối",
+    " Biến cục bộ là biến được khai báo trong một lớp"
+  ],
+  "qid": 56
+}
+,
+{
+  "title": "Hằng có thể được định nghĩa theo cách nào?",
+  "answer": 2,        
+  "options": [
+    " #define <indentifier> string",
+    " const tên_kiểu tên_biến_hằng = giá trị;",
+    " Không có cách định nghĩa chung",
+    " A và B"
+  ],
+  "qid": 57
+}
+,
+{
+  "title": "Hàm gotoxy(int x, int y) là hàm",
+  "answer": 2,     
+  "options": [
+    " Đặt con trỏ tại dòng x, cột y",
+    " Đặt con trỏ tại cột x, dòng y",
+    " Lưu dữ tọa độ của con trỏ màn hình cột x, dòng y",
+    " Lưu dữ tọa độ của con trỏ màn hình dòng x, cột y"
+  ],
+  "qid": 58
+}
+,
+{
+  "title": "Ý nghĩa của phép toán % ?",
+  "answer": 3,        
+  "options": [
+    " Đổi dấu một số thực hoặc một số nguyên",
+    " Chia hai số thực hoặc nguyên",
+    " Lấy phần dư của phép chia hai số nguyên",
+    " A và B"
+  ],
+  "qid": 59
+}
+,
+{
+  "title": "Hàm clrscr() là hàm gì?",
+  "answer": 1,     
+  "options": [
+    " Là hàm xóa toàn bộ màn hình, sau khi xóa, con trỏ sẽ ở bên trái màn hình",
+    " Dùng để xóa sạch bộ nhớ đệm bàn phím",
+    " Là hàm xóa kí tự nằm bên trái con trỏ",
+    " Là hàm xóa kí tự nằm bên phải con trỏ"
+  ],
+  "qid": 60
+}
+]

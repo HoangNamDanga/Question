@@ -1,0 +1,670 @@
+[
+  {
+    "title": "JavaScript là ngôn ngữ xử lý ở:",
+    "answer": 3,                 
+    "options": [
+      " Client",
+      " Server",
+      " Server/client",
+      " Không có dạng nào"
+    ],
+    "qid": 1
+  },
+  {
+    "title": "JavaScript là ngôn ngữ thông dịch hay biên dịch?",
+    "answer": 1,                
+    "options": [
+      " Thông dịch",
+      " Biên dịch",
+      " Cả hai dạng",
+      " Không có dạng nào ở trên"
+    ],
+    "qid": 2
+  },
+  {
+    "title": "Phương thức viết chương trình của Javascript như thế nào?",
+    "answer": 3,                 
+    "options": [
+      " Viết riêng một trang",
+      " Viết chung với HTML",
+      " Cả hai dạng A và B",
+      " Không có dạng nào."
+    ],
+    "qid": 3
+  },
+  {
+    "title": "Javascript là ngôn ngữ kịch bản có dấu được mã nguồn không?",
+    "answer": 1,                  
+    "options": [
+      " Không dấu được vì các kịch bản chạy ở client",
+      " Dấu được vì chương trình hoạt động độc lập với trình duyệt",
+      " Hai phát biểu đều sai",
+      " Hai phát biểu đều đúng"
+    ],
+    "qid": 4
+  },
+  {
+    "title": "JavaScript được bắt đầu bằng?",
+    "answer": 1,                 
+    "options": [
+      " <script>...</script>",
+      " <Javascript>...<Javascript>",
+      " <java> </java>",
+      " Tất cả các dạng trên."
+    ],
+    "qid": 5
+  },
+  {
+    "title": "Các dạng biến trong JavaScript là?",
+    "answer": 4,                 
+    "options": [
+      " Number, String, Boolean",
+      " Number, Integer, char",
+      " Number, String, Boolean, Null",
+      " Tất cả các loại trên."
+    ],
+    "qid": 6
+  },
+  {
+    "title": "Trong JavaScript hàm parseInt() dùng để làm gì?",
+    "answer": 2,                  
+    "options": [
+      " Chuyển một chuỗi thành số",
+      " Chuyển một chuỗi thành số nguyên",
+      " Chuyển một chuỗi thành số thực",
+      " Chuyển một số nguyên thành một chuỗi"
+    ],
+    "qid": 7
+  },
+  {
+    "title": "Trong Javascript hàm parseFloat() dùng để làm gì?",
+    "answer": 2,                  
+    "options": [
+      " Chuyển một chuỗi thành số",
+      " Chuyển một chuỗi thành số thực",
+      " Chuyển một chuỗi thành số nguyên",
+      " Chuyển một số nguyên thành một chuỗi"
+    ],
+    "qid": 8
+  },
+  {
+    "title": "Lệnh prompt trong Javascript để làm gì?",
+    "answer": 3,                 
+    "options": [
+      " Hiện một thông báo nhập thông tin",
+      " Hiện một thông báo dạng yes, No",
+      " Cả hai dạng trên",
+      " Không có câu trả lời nào đúng"
+    ],
+    "qid": 9
+  },
+  {
+    "title": "Trong Javascript, sự kiện onload xảy ra khi nào?",
+    "answer": 1,                  
+    "options": [
+      " Khi bắt đầu chạy chương trình",
+      " Khi click chuột",
+      " Khi kết thúc một chương trình",
+      " Khi di chuyển chuột qua"
+    ],
+    "qid": 10
+  },
+  {
+    "title": "Trong Javascript, sự kiện onunload xảy ra khi nào?",
+    "answer": 3,                 
+    "options": [
+      " Khi bắt đầu chạy chương trình",
+      " Khi click chuột",
+      " Khi kết thúc một chương trình",
+      " Khi di chuyển chuột qua"
+    ],
+    "qid": 11
+  },
+  {
+    "title": "Trong Javascript sự kiện Onblur thực hiện khi nào?",
+    "answer": 1,              
+    "options": [
+      " Khi một đối tượng trong form mất focus",
+      " Khi một đối tượng trong form có focus",
+      " Khi di chuyển con chuột qua form",
+      " Khi click chuột vào nút lệnh"
+    ],
+    "qid": 12
+  },
+  {
+    "title": "Trong Javascript sự kiện OnmouseOver thực hiện khi nào?",
+    "answer": 3,                
+    "options": [
+      " Khi một đối tượng trong form mất focus",
+      " Khi một đối tượng trong form có focus",
+      " Khi di chuyển con chuột qua một đối tượng trong form",
+      " Khi click chuột vào nút lệnh"
+    ],
+    "qid": 13
+  },
+  {
+    "title": "Trong Javascript sự kiện Onclick thực hiện khi nào?",
+    "answer": 4,                 
+    "options": [
+      " Khi một đối tượng trong form mất focus",
+      " Khi một đối tượng trong form có focus",
+      " Khi di chuyển con chuột qua một đối tượng trong form",
+      " Khi click chuột vào nút lệnh"
+    ],
+    "qid": 14
+  },
+  {
+    "title": "Trong HTML, thuộc tính `type` của thẻ `input` dùng để làm gì?",
+    "answer": 1,                  
+    "options": [
+      " Xác định loại dữ liệu được nhập vào ô `input`",
+      " Xác định kích thước của ô `input`",
+      " Xác định vị trí của ô `input`",
+      " Xác định màu sắc của ô `input`"
+    ],
+    "qid": 15
+  },
+  {
+    "title": "CSS là viết tắt của điều gì?",
+    "answer": 3,                 
+    "options": [
+      " Computer Style Sheets",
+      " Creative Style Sheets",
+      " Cascading Style Sheets",
+      " Colorful Style Sheets"
+    ],
+    "qid": 16
+  },
+  {
+    "title": "Thuộc tính 'src' của thẻ <img> trong HTML dùng để làm gì?",
+    "answer": 3,                 
+    "options": [
+      " Đặt kích thước cho hình ảnh",
+      " Xác định vị trí của hình ảnh trên trang",
+      " Xác định đường dẫn của hình ảnh",
+      " Tất cả các ý trên"
+    ],
+    "qid": 17
+  }
+  ,
+  {
+    "title": "CSS là viết tắt của điều gì?",
+    "answer": 2,                 
+    "options": [
+      " Computer Style Sheets",
+      " Cascading Style Sheets",
+      " Creative Style Sheets",
+      " Colorful Style Sheets"
+    ],
+    "qid": 18
+  }
+  ,
+  {
+    "title": "Trong lập trình JavaScript, hàm parseInt() được sử dụng để làm gì?",
+    "answer": 2,                 
+    "options": [
+      " Chuyển đổi một số nguyên thành một chuỗi",
+      " Chuyển đổi một chuỗi thành một số nguyên",
+      " Chuyển đổi một số thực thành một số nguyên",
+      " Tất cả các ý trên"
+    ],
+    "qid": 19
+  }
+  ,
+  {
+    "title": "Trong SQL, câu lệnh SELECT dùng để làm gì?",
+    "answer": 1,               
+    "options": [
+      " Truy vấn dữ liệu từ cơ sở dữ liệu",
+      " Cập nhật dữ liệu trong cơ sở dữ liệu",
+      " Xóa dữ liệu từ cơ sở dữ liệu",
+      " Tất cả các ý trên"
+    ],
+    "qid": 20
+  }
+  ,
+  {
+    "title": "Thẻ <select> trong HTML dùng để làm gì?",
+    "answer": 2,                 
+    "options": [
+      " Tạo một ô text để nhập dữ liệu",
+      " Cho phép người dùng chọn một lựa chọn từ danh sách",
+      " Tạo một cùng có nhiều cột nhiều dòng",
+      " Tất cả các ý trên"
+    ],
+    "qid": 21
+  },
+  {
+    "title": "Thuộc tính CSS 'display: flex;' được sử dụng để làm gì?",
+    "answer": 1,                   
+    "options": [
+      " Xây dựng một container linh hoạt với layout theo kiểu flexbox",
+      " Đặt một phần tử trên một dòng và đẩy các phần tử khác xuống dòng mới",
+      " Hiển thị phần tử như một khối",
+      " Tất cả các ý trên"
+    ],
+    "qid": 22
+  }
+  ,
+  {
+    "title": "Lệnh lặp for có dạng như thế nào?",
+    "answer": 1,                 
+    "options": [
+      " For ( biến = Giá trị đầu, Điều kiện, Giá trị tăng)",
+      " For ( biến = Giá trị đầu, Giá trị tăng, điều kiện)",
+      " For ( biến = Điều kiện, Giá trị tăng Giá trị cuối)",
+      " Tất cả các dạng trên"
+    ],
+    "qid": 23
+  },
+  {
+    "title": "Vòng lặp While là dạng vòng lặp?",
+    "answer": 1,                 
+    "options": [
+      " Không xác định và xét điều kiện rồi mới lặp",
+      " Không xác định và lặp rồi mới xét điều kiện",
+      " Cả hai dạng trên",
+      " Không tồn tại dạng nào ở trên"
+    ],
+    "qid": 24
+  },
+  {
+    "title": "Vòng lặp do-while là dạng vòng lặp?",
+    "answer": 2,                 
+    "options": [
+      " Không xác định và xét điều kiện rồi mới lặp",
+      " Không xác định và lặp rồi mới xét điều kiện",
+      " Cả hai dạng trên",
+      " Không tồn tại dạng nào ở trên"
+    ],
+    "qid": 25
+  },
+  {
+    "title": "Hàm alert() dùng để làm gì?",
+    "answer": 4,                   
+    "options": [
+      " Dùng để hiện một thông.",
+      " Dùng để hiện một thông báo nhập",
+      " Dùng để chuyển đổi số sang chữ",
+      " Tất cả các dạng trên"
+    ],
+    "qid": 26
+  },
+  {
+    "title": "Thẻ <Frameset cols> </frameset> dùng để làm gì?",
+    "answer": 1,                  
+    "options": [
+      " Dùng để chia trang web ra nhiều phần theo cột",
+      " Dùng để chia trang web ra nhiều phần theo dòng",
+      " Tất cả các dạng trên",
+      " Không có ý nào ở trên"
+    ],
+    "qid": 27
+  },
+  {
+    "title": "Thẻ <Frameset cols> </frameset> có tác dụng gì?",
+    "answer": 3,                  
+    "options": [
+      " Dùng để chia trang web ra nhiều phần theo cột",
+      " Dùng để chia trang web ra nhiều phần theo dòng",
+      " Tất cả dạng trên",
+      " Không có ý nào ở trên"
+    ],
+    "qid": 28
+  },
+  {
+    "title": "Thẻ <Frameset rows> </frameset> có tác dụng gì?",
+    "answer": 3,                  
+    "options": [
+      " Dùng để chia trang web ra nhiều phần theo cột",
+      " Dùng để chia trang web ra nhiều phần theo dòng",
+      " Tất cả dạng trên",
+      " Không có ý nào ở trên"
+    ],
+    "qid": 29
+  },
+  {
+    "title": "Thẻ <frame> có tác dụng gì?",
+    "answer": 4,                  
+    "options": [
+      " Dùng để chèn ảnh",
+      " Dùng để lấy dữ liệu từ một trang khác",
+      " Tất cả dạng trên",
+      " Dùng để tạo khung nội dung"
+    ],
+    "qid": 30
+  },
+  {
+    "title": "Trong JavaScript sự kiện OnMouseOver xảy ra khi nào?",
+    "answer": 1,          
+    "options": [
+      " Khi di chuyển con chuột qua một đối tượng trong form",
+      " Khi một đối tượng trong form nhận focus",
+      " Khi một đối tượng trong form mất focus",
+      " Khi kích chuột vào nút lệnh"
+    ],
+    "qid": 31
+  },
+  {
+    "title": "Cách thêm comment nhiều dòng trong JavaScript",
+    "answer": 4,                  
+    "options": [
+      " /*Đây là một comment trên nhiều dòng*/",
+      " //Đây là một comment trên nhiều dòng//",
+      " ",
+      " Cả A, B, C đều đúng"
+    ],
+    "qid": 32
+  },
+  {
+    "title": "Trong JavaScript sự kiện Onchange xảy ra khi nào trong các trường hợp sau?",
+    "answer": 3,                  
+    "options": [
+      " Khi một đối tượng trong form mất focus",
+      " Khi kích chuột vào nút lệnh",
+      " Xảy ra khi giá trị của một trường trong form được người dùng thay đổi dữ liệu",
+      " Khi một đối tượng trong form nhận focus"
+    ],
+    "qid": 33
+  },
+  {
+    "title": "Làm cách nào để gọi một hàm myFunction trong JavaScript?",
+    "answer": 3,                  
+    "options": [
+      " call function myFunction()",
+      " call myFunction()",
+      " myFunction()",
+      " Cả A, B, C đều đúng"
+    ],
+    "qid": 34
+  },
+  {
+    "title": "Kiểu dữ liệu nào trong JavaScript có thể được sử dụng để lưu trữ một danh sách các giá trị?",
+    "answer": 1,                  
+    "options": [
+      " array",
+      " object",
+      " string",
+      " number"
+    ],
+    "qid": 35
+  },
+  {
+    "title": "Trong HTML, thẻ <a> được sử dụng để làm gì?",
+    "answer": 2,                  
+    "options": [
+      " Hiển thị một ảnh trên trang web",
+      " Tạo liên kết đến một trang web hoặc tài nguyên khác",
+      " Hiển thị một danh sách các mục",
+      " Tất cả các ý trên"
+    ],
+    "qid": 28
+  }
+  ,
+  {
+    "title": "Có những cách nào viết code JavaScript để chạy trong trang web?",
+    "answer": 3,                  
+    "options": [
+      " Viết chung với HTML",
+      " Không thuộc dạng nào",
+      " Cả hai dạng viết tệp riêng hoặc viết trong trang HTML",
+      " Viết trên một tệp riêng"
+    ],
+    "qid": 37
+  },
+  {
+    "title": "Cách nào tạo một hàm trong JavaScript?",
+    "answer": 2,                  
+    "options": [
+      " function:myFunction()",
+      " function myFunction()",
+      " function myFunction()",
+      " Cả A, B, C đều đúng"
+    ],
+    "qid": 38
+  },
+  {
+    "title": "Hàm prompt() trong JavaScript dùng để làm gì?",
+    "answer": 1,                  
+    "options": [
+      " Hiển thị thông báo nhập thông tin",
+      " Hiển thị một thông báo Yes, No",
+      " Cả hai dạng trên",
+      " Không phương án nào đúng"
+    ],
+    "qid": 39
+  },
+  {
+    "title": "Thuộc tính 'src' trong thẻ <script> của HTML dùng để làm gì?",
+    "answer": 1,                  
+    "options": [
+      " Xác định đường dẫn đến tập tin script",
+      " Xác định ngôn ngữ lập trình của script",
+      " Xác định tên của biến chứa script",
+      " Tất cả các ý trên"
+    ],
+    "qid": 40
+  }
+  ,
+  {
+    "title": "JavaScript là ngôn ngữ kịch bản có che dấu được mã nguồn không?",
+    "answer": 2,                  
+    "options": [
+      " Dấu được vì chương trình hoạt động độc lập với trình duyệt",
+      " Tùy thuộc vào JavaScript được code ở client hay server",
+      " Hai phát biểu trên đều sai",
+      " Hai phát biểu trên đều đúng"
+    ],
+    "qid": 41
+  },
+  {
+    "title": "Dùng cách nào có thể biết được trình duyệt đang được sử dụng tại máy client?",
+    "answer": 3,                  
+    "options": [
+      " browser.name",
+      " client.navName",
+      " navigator.appName",
+      " Hai phát biểu trên đều đúng"
+    ],
+    "qid": 42
+  },
+  {
+    "title": "Sự kiện nào xảy ra khi người dùng nhấp vào một phần tử HTML trên trang?",
+    "answer": 1,                  
+    "options": [
+      " onclick",
+      " onmouseover",
+      " onchange",
+      " onmouseclick"
+    ],
+    "qid": 43
+  },
+  {
+    "title": "Trong JavaScript sự kiện Onload xảy ra khi nào?",
+    "answer": 1,                  
+    "options": [
+      " Khi bắt đầu chạy chương trình",
+      " Khi click chuột",
+      " Khi di chuyển chuột qua",
+      " Khi kết thúc một chương trình"
+    ],
+    "qid": 44
+  },
+  {
+    "title": "Trong JavaScript sử dụng onclick xây ra khí nào ?",
+    "answer": 2,                  
+    "options": [
+      " Khi một đối tượng trong form mất focus",
+      " Khi click chuột vào nút lệnh",
+      " Khi click chuột vào một đối tượng trong form",
+      " Khi một đối tượng trong form nhận focus"
+    ],
+    "qid": 45
+  },
+  {
+    "title": "Trong JavaScript sự kiện OnUnload xảy ra khi nào?",
+    "answer": 2,                  
+    "options": [
+      " Khi bắt đầu chạy chương trình",
+      " Khi kết thúc một chương trình",
+      " Khi kích chuột",
+      " Khi di chuyển chuột qua"
+    ],
+    "qid": 46
+  },
+  {
+    "title": "Thuộc tính 'class' trong thẻ HTML dùng để làm gì?",
+    "answer": 1,                
+    "options": [
+      " Đặt tên cho một phần tử để dễ dàng tìm kiếm và tùy chỉnh bằng CSS hoặc JavaScript",
+      " Xác định kích thước của một hình ảnh",
+      " Tạo một đường kẻ ngang",
+      " Tất cả các ý trên"
+    ],
+    "qid": 47
+  }
+  ,
+  {
+    "title": "Cấu trúc đơn giản của một trang HTML được khai báo theo thứ tự là:",
+    "answer": 1,                  
+    "options": [
+      " HEAD, HTML, BODY",
+      " HEAD, TITLE, BODY",
+      " HEAD, BODY, HTML",
+      " HTML, HEAD, BODY"
+    ],
+    "qid": 48
+  },
+  {
+    "title": "Để trình bày một đoạn văn bản trong tài liệu HTML ta dùng thẻ:",
+    "answer": 2,                  
+    "options": [
+      " <hr>",
+      " <p>",
+      " <br>",
+      " <pre>"
+    ],
+    "qid": 49
+  },
+  {
+    "title": "Đâu là loại hình lưu trữ dữ liệu phổ biến nhất hiện nay?",
+    "answer": 1,                   
+    "options": [
+      " Cơ sở dữ liệu quan hệ",
+      " Cơ sở dữ liệu không quan hệ",
+      " Hệ thống tệp tin",
+      " Đám mây lưu trữ"
+    ],
+    "qid": 50
+  },
+  {
+    "title": "HTML là viết tắt của gì?",
+    "answer": 3,                  
+    "options": [
+      " HyperText Makeup Language",
+      " High-Level Text Manipulation Language",
+      " HyperText Markup Language",
+      " HyperTransfer Markup Language"
+    ],
+    "qid": 51
+  },
+  {
+    "title": "Để tạo một liên kết trong HTML, bạn sử dụng phần tử nào?",
+    "answer": 2,                  
+    "options": [
+      " <link>",
+      " <a>",
+      " <url>",
+      " <nav>"
+    ],
+    "qid": 52
+  },
+  {
+    "title": "Để thêm một ảnh vào trang web, bạn sử dụng phần tử nào trong HTML?",
+    "answer": 3,                  
+    "options": [
+      " <picture>",
+      " <figure>",
+      " <img>",
+      " <image>"
+    ],
+    "qid": 53
+  },
+  {
+    "title": "Trong HTML, để tạo một đoạn văn bản in đậm (bold), bạn sử dụng phần tử nào?",
+    "answer": 1,                 
+    "options": [
+      " <strong>",
+      " <bold>",
+      " <b>",
+      " <em>"
+    ],
+    "qid": 54
+  },
+  {
+    "title": "Trong HTML, để tạo một đường kẻ ngang (horizontal line), bạn sử dụng phần tử nào?",
+    "answer": 2,                 
+    "options": [
+      " <line>",
+      " <hr>",
+      " <br>",
+      " <divider>"
+    ],
+    "qid": 55
+  },
+  {
+    "title": "Trong HTML, để thực hiện việc tạo một hiệu ứng động sử dụng CSS và JavaScript, phần tử nào thường được sử dụng?",
+    "answer": 4,                 
+    "options": [
+      " <animation>",
+      " <dynamic>",
+      " <effect>",
+      " <canvas>"
+    ],
+    "qid": 56
+  },
+  {
+    "title": "Trong HTML5, để lưu trữ dữ liệu trên máy người dùng một cách lâu dài và an toàn, phương tiện nào thường được sử dụng?",
+    "answer": 3,                  
+    "options": [
+      " Cookies",
+      " IndexedDB",
+      " Web Storage (localStorage và sessionStorage)",
+      " File API"
+    ],
+    "qid": 57
+  },
+  {
+    "title": "Trong HTML, để định rõ ngôn ngữ của trang web và cấu hình kí tự, bạn sử dụng thẻ và thuộc tính nào?",
+    "answer": 1,                   
+    "options": [
+      " <meta charset=\"UTF-8\">",
+      " <language=\"en\">",
+      " <encoding=\"utf-8\">",
+      " <html lang=\"en\">"
+    ],
+    "qid": 58
+  },
+  {
+    "title": "Trong HTML, để tạo một hình ảnh chuyển động, bạn thường sử dụng ngôn ngữ lập trình nào kết hợp với HTML?",
+    "answer": 2,                  
+    "options": [
+      " Python và HTML5 Canvas",
+      " JavaScript và CSS",
+      " Java và HTML DOM",
+      " C# và ASP.NET"
+    ],
+    "qid": 59
+  },
+  {
+    "title": "Trong HTML, CSS và JavaScript, để tạo hiệu ứng mượt mà khi cuộn trang web (smooth scrolling), bạn thường sử dụng thuộc tính nào?",
+    "answer": 4,                  
+    "options": [
+      " overflow: hidden;",
+      " transition: scroll;",
+      " smooth-scrolling: true;",
+      " scroll-behavior: smooth;"
+    ],
+    "qid": 60
+  }
+]

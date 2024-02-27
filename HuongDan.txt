@@ -1,0 +1,7 @@
+Nhóm 2 : Nộp sản phẩm kì 2 JavaSwing
+Tên Sản phẩm : Aptech Quiz
+Thành Viên : Đặng Hoàng Nam, Nguyễn Tuấn Minh, Vũ Hải Hòa , Ninh Thế Mạnh, Hoàng Hà Sơn
+Bao gồm : 
+	- Document: Tài liệu và Slide
+	- SourceCode: Mã nguồn của website / chương trình
+	- Database: File query SQL hoặc file database (File đã export, khi sử dụng cần Import file vào MongoDB or Studio 3T)

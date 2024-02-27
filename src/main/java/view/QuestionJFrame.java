@@ -150,7 +150,7 @@ public class QuestionJFrame extends javax.swing.JFrame {
             jLabel2.setText(textTime);
             if(timeLeft <= 0){
                 timer.stop();
-                accept();
+                accept1();
             }
         }
         });
@@ -262,6 +262,21 @@ public class QuestionJFrame extends javax.swing.JFrame {
             } else if (result == JOptionPane.NO_OPTION) {
                 
             }
+    }
+    public void accept1(){
+        
+            int point = 0;
+       
+            for (int i = 0; i < this.list.size(); i++) {
+                var item = this.list.get(i);
+                if(item.getStatus() == item.getAnswer()){
+                    point++;
+                }
+            }
+            ResultViewJFrame rvj = new ResultViewJFrame(point);
+            rvj.show();
+            this.hide();
+            
     }
     
     /**
